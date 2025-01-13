@@ -63,3 +63,10 @@ number_of_miles_hiked += 2
 
 #multi line strings 
 
+this_is_one = """
+Hello
+a string 
+on 
+multiple lines """
+
+#print(this_is_one)
