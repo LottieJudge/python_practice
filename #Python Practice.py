@@ -67,3 +67,16 @@ this_is_one = """
 hello
 multiple 
 lines """
+
+#control flow - how your programme makes decisions. E.G two cards are played, which one is higher, the higher one wins 
+
+#Boolean - True or False (capitalised in Python)
+
+1 == 1 #equals operator (true)
+
+1 != 2 #not equals operator (this will return true)
+
+1 != 1 #this will return False
+
+'7' == 7 #
+
