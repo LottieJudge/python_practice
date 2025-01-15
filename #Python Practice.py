@@ -81,6 +81,10 @@ lines """
 
 '7' == 7 #false cos different data types
 
+a_num = 9
+
+print(type(a_num))
+
 #Function 
 
 def just_a_num(num):
