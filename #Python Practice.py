@@ -1,5 +1,6 @@
 # in Python instead of using console.log() we use print()
 #Can still use single or double quotes 
+# Indendtion is REALLY important 
 
 print("Hello World!")
 
@@ -78,5 +79,16 @@ lines """
 
 1 != 1 #this will return False
 
-'7' == 7 #
+'7' == 7 #false cos different data types
 
+#Function 
+
+def just_a_num(num):
+  return num
+
+print(just_a_num(3))
+
+def add_one(num):
+  return num + 1
+
+ 
