@@ -100,7 +100,7 @@ def add_one(num):
 
 
 
-#two sums 
+#two sums - neetcode video 
 
 def two_sums(nums, target):
   num_result = {}
