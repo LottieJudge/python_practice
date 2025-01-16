@@ -96,12 +96,24 @@ def add_one(num):
   return num + 1
 
 
+
+
 #if Statements - conditional statements IF is raining: bring brolly innit 
 
+is_it_raining = False
 
+def bring_brolly():
+  brolly_update = ""
+  if is_it_raining == True:
+    brolly_update = "bring brolly"
+  else:
+    brolly_update =  "Brolly not needed"
+  return brolly_update
 
-#two sums - neetcode video 
+print(bring_brolly())
 
-def two_sums(nums, target):
-  num_result = {}
+#two sums - neetcode video come back to 
+
+#def two_sums(nums, target):
+
   
