@@ -95,9 +95,6 @@ print(just_a_num(3))
 def add_one(num):
   return num + 1
 
-
-
-
 #if Statements - conditional statements IF is raining: bring brolly innit 
 
 is_it_raining = False
@@ -110,7 +107,11 @@ def bring_brolly():
     brolly_update =  "Brolly not needed"
   return brolly_update
 
-print(bring_brolly())
+#print(bring_brolly())
+
+#AND OR NOT operators
+
+and_operator = "And takes two bollean expressions to evaluate, if both are True it returns True otherwise it returns False "
 
 #two sums - neetcode video come back to 
 
