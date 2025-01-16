@@ -95,4 +95,13 @@ print(just_a_num(3))
 def add_one(num):
   return num + 1
 
- 
+
+#if Statements - conditional statements IF is raining: bring brolly innit 
+
+
+
+#two sums 
+
+def two_sums(nums, target):
+  num_result = {}
+  
