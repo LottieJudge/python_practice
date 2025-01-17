@@ -118,9 +118,12 @@ name = "Watson"
 
 if type == "dog" and name == "Watson":
   print("Wow the goodest of boys")
-  
+
 or_operator = "evaluates if one or another bolean expressions are true, if either are true it returns true"
 
+if type == "dog" or name == "Watson":
+  print("All dogs are good dogs man! ")
+  
 not_operator = ""
 
 #two sums - neetcode video come back to 
