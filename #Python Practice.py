@@ -95,4 +95,39 @@ print(just_a_num(3))
 def add_one(num):
   return num + 1
 
- 
+#if Statements - conditional statements IF is raining: bring brolly innit 
+
+is_it_raining = False
+
+def bring_brolly():
+  brolly_update = ""
+  if is_it_raining == True:
+    brolly_update = "bring brolly"
+  else:
+    brolly_update =  "Brolly not needed"
+  return brolly_update
+
+#print(bring_brolly())
+
+#AND OR NOT operators
+
+and_operator = "And takes two bollean expressions to evaluate, if both are True it returns True otherwise it returns False "
+
+type = "dog"
+name = "Watson"
+
+if type == "dog" and name == "Watson":
+  print("Wow the goodest of boys")
+
+or_operator = "evaluates if one or another bolean expressions are true, if either are true it returns true"
+
+if type == "dog" or name == "Watson":
+  print("All dogs are good dogs man! ")
+  
+not_operator = ""
+
+#two sums - neetcode video come back to 
+
+#def two_sums(nums, target):
+
+  
