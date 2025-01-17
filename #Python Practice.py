@@ -113,6 +113,16 @@ def bring_brolly():
 
 and_operator = "And takes two bollean expressions to evaluate, if both are True it returns True otherwise it returns False "
 
+type = "dog"
+name = "Watson"
+
+if type == "dog" and name == "Watson":
+  print("Wow the goodest of boys")
+  
+or_operator = "evaluates if one or another bolean expressions are true, if either are true it returns true"
+
+not_operator = ""
+
 #two sums - neetcode video come back to 
 
 #def two_sums(nums, target):
