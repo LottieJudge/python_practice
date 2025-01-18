@@ -131,7 +131,37 @@ name = "Felix"
 #if not type == "dog" and not name == "Watson":
   #print("an interloper!")
 
-#else statements 
+#else statements tell the code what to do when conditions are not met and are always found with if statements 
+
+#if type == "dog" or name == "Watson":
+  #print("a lovely boy")
+#else: 
+  #print("mmm sus")
+
+#Elif statements - checks another condition after the first if statement but before the final else statement - you can make as many elif statements as you need in a code block 
+type = "dog"
+name = "Chewie"
+message = ""
+
+if type == "dog" and name == "Watson":
+  message = "Lotties Best Friend"
+elif type == "dog" and name == "Chewie":
+  message = "Lotties other trusted confident"
+elif type == "dog":
+  message = "mans best friend"
+else: 
+  message = "hmm sure they're fine"
+
+#print(message)
+
+
+
+
+
+
+
+
+
 
 #two sums - neetcode video come back to 
 
