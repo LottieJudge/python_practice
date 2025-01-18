@@ -205,14 +205,39 @@ match random_num:
 
 #print(f"{name} asks the Magic Eight Ball '{question}'. The magic eight ball replies, {answer}")
 
+#Sal's Shipping 
 
+weight = 1.5
+cost = ""
+premium_ground_shipping = "£125"
+#Ground Shipping 
+if weight <= 2:
+  cost = weight * 1.5 + 20
+elif weight >= 2 and weight <= 6:
+  cost = weight *  3 + 20
+elif weight >= 6 and weight <= 10:
+  cost = weight * 4 + 20
+elif weight > 10: 
+  cost = weight * 4.75 + 20 
+else:
+  print("Error: Try again")
 
+print(f"Your parcel that weighs {weight} will cost {cost} to use Ground Shipping")
 
+ #Drone shipping
+cost_drone = ""
+if weight <= 2:
+  cost_drone = weight * 4.5 
+elif weight >= 2 and weight <= 6:
+  cost_drone = weight *  9
+elif weight >= 6 and weight <= 10:
+  cost_drone = weight * 12
+elif weight > 10: 
+  cost_drone = weight * 14.25
+else:
+  print("Error: Try again")
 
-
-
-
-
+print(f"Your parcel that weighs {weight} will cost {cost_drone} to use Drone Shipping")
 
 
 
