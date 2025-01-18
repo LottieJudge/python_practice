@@ -6,12 +6,15 @@ list_example = ["Pigeon", "Crow", "Raven"]
 fave_books = ["Gathering Moss", "Wee Free Men", "English Pastoral", "Rivers of London", "Jamie Oliver fifteen minute meals"]
 
 #adding to the end
-
 def add_book(book):
   fave_books.append(book)
 
 add_book("Sabriel")
 print(fave_books)
+
+#adding multiple items
+add_more_books = fave_books + ["Silent Spring", "Forgotten Rainforests", "The Night Raven", "Dune"]
+print(add_more_books)
 
 #removing book by name
 def remove_book(book):
