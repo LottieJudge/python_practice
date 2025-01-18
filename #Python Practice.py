@@ -116,15 +116,22 @@ and_operator = "And takes two bollean expressions to evaluate, if both are True 
 type = "dog"
 name = "Watson"
 
-if type == "dog" and name == "Watson":
-  print("Wow the goodest of boys")
+#if type == "dog" and name == "Watson":
+  #print("Wow the goodest of boys")
 
 or_operator = "evaluates if one or another bolean expressions are true, if either are true it returns true"
 
-if type == "dog" or name == "Watson":
-  print("All dogs are good dogs man! ")
+#if type == "dog" or name == "Watson":
+  #print("All dogs are good dogs man! ")
 
 not_operator = "if it's incorrect it returns True, if it's correct it'll return false. E.g not 1+1 == 2 would return False. but not 7 < 0 would return True ~"
+
+type = "cat"
+name = "Felix"
+#if not type == "dog" and not name == "Watson":
+  #print("an interloper!")
+
+#else statements 
 
 #two sums - neetcode video come back to 
 
