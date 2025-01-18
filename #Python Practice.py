@@ -1,3 +1,4 @@
+import random
 # in Python instead of using console.log() we use print()
 #Can still use single or double quotes 
 # Indendtion is REALLY important 
@@ -169,8 +170,45 @@ match name:
     message = "Not a dog but humans are good too!"
   case default:
     message = "Who tf is that?"
+#print(message)
 
-print(message)
+#Magic eight ball 
+
+name = "Scotty"
+question = "Should I clean the kitchen for Lottie?"
+answer = ""
+#generate a number between one and nine
+random_num = random.randint(1,9)
+#print(random_num)
+
+match random_num:
+  case 1:
+    answer = "Yes - definitely"
+  case 2:
+    answer = "It is decidedly so"
+  case 3: 
+    answer = "Without a doubt"
+  case 4: 
+    answer = "Reply hazy, try again"
+  case 5: 
+    answer = "Ask again later"
+  case 6: 
+    answer = "Better not tell you now"
+  case 7:
+    answer = "My sources say no"
+  case 8:
+    answer = "Outlook not so good"
+  case 9:
+    answer = "Very doubtful"
+  case default:
+    answer = "The eight ball spirits are asleep"
+
+print(f"{name} asks the Magic Eight Ball '{question}'. The magic eight ball replies, {answer}")
+
+
+
+
+
 
 
 
