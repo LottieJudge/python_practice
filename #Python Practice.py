@@ -1,3 +1,4 @@
+import random
 # in Python instead of using console.log() we use print()
 #Can still use single or double quotes 
 # Indendtion is REALLY important 
@@ -116,15 +117,108 @@ and_operator = "And takes two bollean expressions to evaluate, if both are True 
 type = "dog"
 name = "Watson"
 
-if type == "dog" and name == "Watson":
-  print("Wow the goodest of boys")
+#if type == "dog" and name == "Watson":
+  #print("Wow the goodest of boys")
 
 or_operator = "evaluates if one or another bolean expressions are true, if either are true it returns true"
 
-if type == "dog" or name == "Watson":
-  print("All dogs are good dogs man! ")
-  
-not_operator = ""
+#if type == "dog" or name == "Watson":
+  #print("All dogs are good dogs man! ")
+
+not_operator = "if it's incorrect it returns True, if it's correct it'll return false. E.g not 1+1 == 2 would return False. but not 7 < 0 would return True ~"
+
+type = "cat"
+name = "Felix"
+#if not type == "dog" and not name == "Watson":
+  #print("an interloper!")
+
+#else statements tell the code what to do when conditions are not met and are always found with if statements 
+
+#if type == "dog" or name == "Watson":
+  #print("a lovely boy")
+#else: 
+  #print("mmm sus")
+
+#Elif statements - checks another condition after the first if statement but before the final else statement - you can make as many elif statements as you need in a code block 
+type = "dog"
+name = "Chewie"
+message = ""
+
+if type == "dog" and name == "Watson":
+  message = "Lotties Best Friend"
+elif type == "dog" and name == "Chewie":
+  message = "Lotties other trusted confident"
+elif type == "dog":
+  message = "mans best friend"
+else: 
+  message = "hmm sure they're fine"
+
+#print(message)
+
+#MAtch statements - Switch statements in python are called match-case 
+
+#rewriting the above as a switch 
+
+name = "Watson"
+message = ""
+match name: 
+  case "Watson":
+    message = "A good boy!"
+  case "Chewie":
+    message = "Another good guy!"
+  case "Scotty":
+    message = "Not a dog but humans are good too!"
+  case default:
+    message = "Who tf is that?"
+#print(message)
+
+#Magic eight ball 
+
+name = "Scotty"
+question = "Should I clean the kitchen for Lottie?"
+answer = ""
+#generate a number between one and nine
+random_num = random.randint(1,9)
+#print(random_num)
+
+match random_num:
+  case 1:
+    answer = "Yes - definitely"
+  case 2:
+    answer = "It is decidedly so"
+  case 3: 
+    answer = "Without a doubt"
+  case 4: 
+    answer = "Reply hazy, try again"
+  case 5: 
+    answer = "Ask again later"
+  case 6: 
+    answer = "Better not tell you now"
+  case 7:
+    answer = "My sources say no"
+  case 8:
+    answer = "Outlook not so good"
+  case 9:
+    answer = "Very doubtful"
+  case default:
+    answer = "The eight ball spirits are asleep"
+
+print(f"{name} asks the Magic Eight Ball '{question}'. The magic eight ball replies, {answer}")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #two sums - neetcode video come back to 
 
