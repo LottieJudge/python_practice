@@ -154,6 +154,25 @@ else:
 
 #print(message)
 
+#MAtch statements - Switch statements in python are called match-case 
+
+#rewriting the above as a switch 
+
+name = "Watson"
+message = ""
+match name: 
+  case "Watson":
+    message = "A good boy!"
+  case "Chewie":
+    message = "Another good guy!"
+  case "Scotty":
+    message = "Not a dog but humans are good too!"
+  case default:
+    message = "Who tf is that?"
+
+print(message)
+
+
 
 
 
