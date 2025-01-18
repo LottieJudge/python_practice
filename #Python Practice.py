@@ -203,7 +203,9 @@ match random_num:
   case default:
     answer = "The eight ball spirits are asleep"
 
-print(f"{name} asks the Magic Eight Ball '{question}'. The magic eight ball replies, {answer}")
+#print(f"{name} asks the Magic Eight Ball '{question}'. The magic eight ball replies, {answer}")
+
+
 
 
 
