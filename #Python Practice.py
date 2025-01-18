@@ -123,8 +123,8 @@ or_operator = "evaluates if one or another bolean expressions are true, if eithe
 
 if type == "dog" or name == "Watson":
   print("All dogs are good dogs man! ")
-  
-not_operator = ""
+
+not_operator = "if it's incorrect it returns True, if it's correct it'll return false. E.g not 1+1 == 2 would return False. but not 7 < 0 would return True ~"
 
 #two sums - neetcode video come back to 
 
