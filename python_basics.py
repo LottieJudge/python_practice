@@ -240,15 +240,4 @@ else:
 print(f"Your parcel that weighs {weight} will cost {cost_drone} to use Drone Shipping")
 
 
-
-
-
-
-
-
-
-#two sums - neetcode video come back to 
-
-#def two_sums(nums, target):
-
   
