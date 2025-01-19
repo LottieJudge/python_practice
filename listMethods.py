@@ -6,3 +6,9 @@ range = ".range() - a built in function to create a sequence of integers"
 len = "A built in Python function to get the length of a list"
 sort_sorted = "A method and function to sort a list"
 
+fave_birds = ["Humble Rock Dove", "Robin", "Osprey", "Hen Harrier"]
+
+#insert
+fave_birds.insert(2, "Red Kite")
+print(fave_birds)
+
