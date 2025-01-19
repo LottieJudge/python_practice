@@ -41,3 +41,8 @@ print(fave_books[-1])
 print(fave_books[1])
 fave_books[1] = "How to be a woman"
 print(fave_books[1])
+
+#2D Lists - a list within a list 
+
+fave_book_with_rating = [["Gathering Moss", 5], ["Wee Free Men", 5], ["Silent Spring", 5]]
+
