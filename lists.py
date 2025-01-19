@@ -53,3 +53,8 @@ print(second_book)
 
 last_book = fave_book_with_rating[-1][-1]
 print(last_book)
+
+#modifying 2D lists 
+fave_book_with_rating[-1][0] = "Shackleton"
+last_book = fave_book_with_rating[-1][0]
+print(last_book)
