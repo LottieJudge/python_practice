@@ -22,3 +22,11 @@ print(remove_wrong_bird)
 
 how_good_are_birds = range(11)
 print(list(how_good_are_birds))
+
+#creatuing a range that starts after zero 
+how_good_are_birds_really_tho = range(10, 21)
+print(list(how_good_are_birds_really_tho))
+
+#or by two (can go up in any increments)
+how_good_are_birds_really_tho_by_two = range(2, 21, 2)
+print(list(how_good_are_birds_really_tho_by_two))
