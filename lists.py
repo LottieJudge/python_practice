@@ -34,4 +34,5 @@ print(fave_books_by_index(fave_books))
 #getting a specific book by index 
 print(fave_books[1])
 
-#negative indexing 
+#negative indexing - last element of the list 
+print(fave_books[-1])
