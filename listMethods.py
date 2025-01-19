@@ -12,3 +12,9 @@ fave_birds = ["Humble Rock Dove", "Robin", "Osprey", "Hen Harrier"]
 fave_birds.insert(2, "Red Kite")
 print(fave_birds)
 
+#removing by index - pop()
+fave_birds.insert(3, "Water Vole")
+print(fave_birds)
+remove_wrong_bird = fave_birds.pop(3)
+print(remove_wrong_bird)
+
