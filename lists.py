@@ -24,8 +24,14 @@ remove_book("Jamie Oliver fifteen minute meals")
 print(fave_books)
 
 #Accessing list elements (by index etc)
+#getting list of books with indexing 
 def fave_books_by_index(books): 
   for i, book in enumerate(books):
     print(f"{i}:{book}")
 
 print(fave_books_by_index(fave_books))
+
+#getting a specific book by index 
+print(fave_books[1])
+
+#negative indexing 
