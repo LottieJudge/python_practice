@@ -46,3 +46,10 @@ print(fave_books[1])
 
 fave_book_with_rating = [["Gathering Moss", 5], ["Wee Free Men", 5], ["Silent Spring", 5]]
 
+#Accessing 2D Lists 
+#accessing the sublist at 1 and then the name of that book which will be at 0 
+second_book = fave_book_with_rating[1][0]
+print(second_book)
+
+last_book = fave_book_with_rating[-1][-1]
+print(last_book)
