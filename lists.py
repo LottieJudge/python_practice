@@ -36,3 +36,8 @@ print(fave_books[1])
 
 #negative indexing - last element of the list 
 print(fave_books[-1])
+
+#reassigning index values 
+print(fave_books[1])
+fave_books[1] = "How to be a woman"
+print(fave_books[1])
