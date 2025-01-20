@@ -57,7 +57,6 @@ print(last_three)
 slicing_last_three = fave_birds[:-3]
 print(slicing_last_three)
 
-#counting in a list - .count(), count the number of times an element appears 
 
 def adding_bird(list, word):
   result = [word] * (len(list) * 2 - 1)
@@ -68,6 +67,11 @@ def adding_bird(list, word):
 fave_birds = adding_bird(fave_birds, "pigeon")
 print(fave_birds)
 
-  
+
+ #counting in a list - .count(), count the number of times an element appears 
+amount_of_pidge = fave_birds.count("pigeon")
+print(amount_of_pidge) 
+
+
 
 
