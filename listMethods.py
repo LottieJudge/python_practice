@@ -61,7 +61,7 @@ print(slicing_last_three)
 
 def adding_bird(list, word):
   result = [word] * (len(list) * 2 - 1)
-#using slice assignment 
+#using slice assignment to add in after every second index and then assigning the value to result
   result[0::2] = list
   return result
 
