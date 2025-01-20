@@ -66,11 +66,18 @@ def adding_bird(list, word):
 
 fave_birds = adding_bird(fave_birds, "pigeon")
 print(fave_birds)
-
-
  #counting in a list - .count(), count the number of times an element appears 
 amount_of_pidge = fave_birds.count("pigeon")
 print(amount_of_pidge) 
+
+#sorting lists e.g alphabetical 
+fave_birds.sort()
+print(fave_birds)
+
+#reverse alphabet
+fave_birds.sort(reverse=True)
+print(fave_birds)
+
 
 
 
