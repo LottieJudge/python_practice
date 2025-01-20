@@ -59,12 +59,15 @@ print(slicing_last_three)
 
 #counting in a list - .count(), count the number of times an element appears 
 
-def adding_pigeon(fave_birds):
-  fave_birds = fave_birds + ["pigeon"] * len(fave_birds)
-  return fave_birds
+def adding_bird(list, word):
+  result = [word] * (len(list) * 2 - 1)
+#using slice assignment 
+  result[0::2] = list
+  return result
 
-adding_pigeon(fave_birds)
+fave_birds = adding_bird(fave_birds, "pigeon")
 print(fave_birds)
+
   
 
 
