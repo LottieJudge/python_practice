@@ -39,4 +39,10 @@ def length_of_birds(list):
 
 print(length_of_birds(fave_birds))
 
+#slicing lists - extracting a portion of a list
+more_birds = ["Peregrine", "Long-Eared Owl", "Sparrow Hawk"]
+fave_birds = fave_birds + more_birds
+
+print(fave_birds)
+
 
