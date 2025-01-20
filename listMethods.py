@@ -78,7 +78,11 @@ print(fave_birds)
 fave_birds.sort(reverse=True)
 print(fave_birds)
 
+#sorted() = comes before the list cos built in function and generates a new list 
 
+fave_birds_abc = sorted(fave_birds)
+print(fave_birds_abc)
 
+#lens slice activity 
 
 
