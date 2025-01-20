@@ -45,4 +45,15 @@ fave_birds = fave_birds + more_birds
 
 print(fave_birds)
 
+#selecting the first three
+first_three = fave_birds[0:3]
+print(first_three)
+
+#keeping the last three
+last_three = fave_birds[-3:]
+print(last_three)
+
+#yeeting the last three 
+slicing_last_three = fave_birds[:-3]
+print(slicing_last_three)
 
