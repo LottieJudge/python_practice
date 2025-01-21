@@ -86,3 +86,4 @@ print(fave_birds_abc)
 #lens slice activity 
 
 
+toppings = ["pepperoni", "pineapple", "cheese", "sausage", "olives", "anchovies", "mushrooms"]
