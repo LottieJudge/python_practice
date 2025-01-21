@@ -116,3 +116,13 @@ pizza_and_prices.insert(2, [2.5, "peppers"])
 
 three_cheapest = pizza_and_prices[0:3]
 print(three_cheapest)
+
+#Zip Function - combines list without having to use multi-dimensional lists
+
+names = ["Jenny", "Alexus", "Sam", "Grace"]
+heights = [61, 70, 67, 64]
+
+names_and_heights = zip(names, heights)
+
+converted_list = list(names_and_heights)
+print(converted_list)
