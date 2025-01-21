@@ -13,6 +13,7 @@ print(pop)
 
 len_tuple = ("The length of the tuple",)
 max_tuple = ("Returns the maximum value of the tuple, whatevers closer to z if it's a string and the highest value if numbers", )
-min_tuple = ("the same as above but opppsite",)
+min_tuple = ("the same as above but opposite",)
 index_tuple = ("bring back the index of an element", )
 print(popcorn_flavours.index("Cinnamon"))
+count_tuple = ("Counts the number of instances of an element")
