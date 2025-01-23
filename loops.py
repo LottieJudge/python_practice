@@ -38,3 +38,23 @@ print("the big ten!")
 #as an elegant loop counting down
 nums = 3
 while count >0: print(count); count -= 1 
+
+shopping_list = ["Oat Milk", "Dog Treats", "Popcorn", "Vichi Catalan"]
+
+list = len(shopping_list)
+index = 0 
+
+while index < list:
+  print(shopping_list[index])
+  index +=1
+
+#will print the shopping list 
+
+am_the_album = ["Do I wanna Know", "R U Mine", "One for the Road", "Arabella", "I want it all", "No.1 party anthem", "Mad Sounds", "Fireside", "Why'd you only call me", "Snap Out Of It", "Knee Socks", "I Wanna be Yours"]
+
+setlist = len(am_the_album)
+
+print("AM Setlist:")
+while index < setlist:
+  print(am_the_album[index])
+  index += 1
