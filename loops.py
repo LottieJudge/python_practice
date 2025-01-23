@@ -58,3 +58,21 @@ print("AM Setlist:")
 while index < setlist:
   print(am_the_album[index])
   index += 1
+
+  #the dreaded infinite loooooops, if you don't add a stopping clause a loop will run forever and break your code. Avoid(using break helps)
+
+#break 
+items_on_sale = ["Neat shirt", "Posh Socks", "Spotty Scarf", "Stylish Eye patch", "Fetching Cane", "Elegant Cummerbund", "Lovely bowtie"]
+
+items_on_sale.sort()
+
+print("Checking we have your wares:")
+
+for item in items_on_sale:
+  print(item)
+  if item == "Posh Socks":
+    break
+print("Item acquired!")
+
+
+
