@@ -31,6 +31,10 @@ count = 0
 while count <= 10:
   print(count)
   count +=1
+print("the big ten!")
 
 #will count to ten!
 
+#as an elegant loop counting down
+nums = 3
+while count >0: print(count); count -= 1 
