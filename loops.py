@@ -24,4 +24,13 @@ six_times = range(6)
 for num in range(6):
   print("Loop number:" + str(num +1))
 
+#while loops - perform a set of instructions as long as the given condition is true 
+
+count = 0
+
+while count <= 10:
+  print(count)
+  count +=1
+
+#will count to ten!
 
