@@ -74,5 +74,6 @@ for item in items_on_sale:
     break
 print("Item acquired!")
 
+#continue 
 
 
