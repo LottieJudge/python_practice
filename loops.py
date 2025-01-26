@@ -74,5 +74,14 @@ for item in items_on_sale:
     break
 print("Item acquired!")
 
+#continue = can be used if you need to skip an action or number etc
+
+numbers = [-1, -2, -3, 0, 1, 2, 3]
+
+print("Positive integers only")
+for num in numbers:
+  if num < 0:
+    continue
+  print(num)
 
 
