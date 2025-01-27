@@ -85,3 +85,15 @@ for num in numbers:
   print(num)
 
 
+#Nested Loops 
+project_teams = [["Ava", "Samantha", "James"], ["Lucille", "Zed"], ["Edgar", "Gabriel"]]
+
+#printing individual students from the list 
+for team in project_teams:
+  for student in team:
+    print(student)
+
+#without the nesting 
+for team in project_teams:
+  print(team)
+  #prints the individual team as a list
