@@ -97,3 +97,20 @@ for team in project_teams:
 for team in project_teams:
   print(team)
   #prints the individual team as a list
+
+#list comprehension turns this 
+numbers =[1, 2, 3, 4, 5]
+numbers_dub = []
+
+for number in numbers:
+  numbers_dub.append(number * 2)
+
+print(numbers_dub)
+
+#into this 
+
+numbersTwo = [3, 5, 8, 10, 18]
+doubled = [num * 2 for num in numbersTwo]
+print(doubled)
+
+#very nice very smooth
