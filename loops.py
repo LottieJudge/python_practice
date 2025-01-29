@@ -114,3 +114,11 @@ doubled = [num * 2 for num in numbersTwo]
 print(doubled)
 
 #very nice very smooth
+
+#list comprehension with conditionals - adding conditions to the comprehensions, basically making them 
+
+numbersThree = [-18, -7, -1, 3, 5, 8, 10, 18]
+only_neg_doub = [if num < 0: num * 2 ]
+
+
+
