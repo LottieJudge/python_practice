@@ -118,7 +118,8 @@ print(doubled)
 #list comprehension with conditionals - adding conditions to the comprehensions, basically making them 
 
 numbersThree = [-18, -7, -1, 3, 5, 8, 10, 18]
-only_neg_doub = [if num < 0: num * 2 ]
+only_neg_doub = [num * 2 for num in numbersThree if num < 0 ]
+print(only_neg_doub)
 
 
 
