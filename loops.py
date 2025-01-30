@@ -85,3 +85,40 @@ for num in numbers:
   print(num)
 
 
+#Nested Loops 
+project_teams = [["Ava", "Samantha", "James"], ["Lucille", "Zed"], ["Edgar", "Gabriel"]]
+
+#printing individual students from the list 
+for team in project_teams:
+  for student in team:
+    print(student)
+
+#without the nesting 
+for team in project_teams:
+  print(team)
+  #prints the individual team as a list
+
+#list comprehension turns this 
+numbers =[1, 2, 3, 4, 5]
+numbers_dub = []
+
+for number in numbers:
+  numbers_dub.append(number * 2)
+
+print(numbers_dub)
+
+#into this 
+
+numbersTwo = [3, 5, 8, 10, 18]
+doubled = [num * 2 for num in numbersTwo]
+print(doubled)
+
+#very nice very smooth
+
+#list comprehension with conditionals - adding conditions to the comprehensions, basically making them 
+
+numbersThree = [-18, -7, -1, 3, 5, 8, 10, 18]
+only_neg_doub = [if num < 0: num * 2 ]
+
+
+
