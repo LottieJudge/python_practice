@@ -1,4 +1,5 @@
 #codecademy assignment 
+import math
 
 hairstyles = ["bouffant", "pixie", "dreadlocks", "crew", "bowl", "bob", "mohawk", "flattop"]
 
@@ -12,6 +13,10 @@ for price in prices:
   total_price += price
 
 average_price = total_price / len(prices)
+average_price = math.floor(average_price)
 
-print(average_price)
 
+print(f"Average Haircut Price: {average_price}")
+
+new_prices = [price - 5 for price in prices ]
+print(new_prices)
