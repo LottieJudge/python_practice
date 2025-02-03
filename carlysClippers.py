@@ -11,3 +11,7 @@ total_price = 0
 for price in prices:
   total_price += price
 
+average_price = total_price / len(prices)
+
+print(average_price)
+
