@@ -4,3 +4,11 @@ def this_is_a_function(num):
 
 print(this_is_a_function(4))
 
+def more_complicated(num):
+  if num < 10:
+    return num
+  if num > 10:
+    num = num * 10
+  return num 
+
+print(more_complicated(8))
