@@ -12,3 +12,23 @@ def more_complicated(num):
   return num 
 
 print(more_complicated(8))
+
+print("Let's check the weather!")
+
+def weather_check(weather):
+  check = weather.lower()
+  if check == "sunny":
+     print("Pack the factor 50 babe!")
+  elif check == "rainy":
+    print("Pack the brolly babe!")
+  elif check == "windy":
+    print("It's a blowin babe!")
+  elif check == "snowy":
+    print("pack the snow boots babe!")
+  else: 
+    print("Is weather even real?")
+
+weather_check("flab")
+
+
+
