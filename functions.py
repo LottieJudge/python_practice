@@ -40,7 +40,15 @@ my_function("Watsy")
 #more perams 
 
 def a_function(param1, param2):
+  output = ""
   if param1 == param2:
+    output = "The same!"
+  if param1 != param2:
+    output = "oh, different!"
+  print(output)
+
+a_function(1,1)
+    
 
 
 
