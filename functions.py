@@ -36,3 +36,11 @@ def my_function(parameter):
   print(f"You can assign values to the parameter of a function. {cat}")
 
 my_function("Watsy")
+
+#more perams 
+
+def a_function(param1, param2):
+  if param1 == param2:
+
+
+
