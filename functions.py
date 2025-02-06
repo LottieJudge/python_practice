@@ -30,5 +30,9 @@ def weather_check(weather):
 
 weather_check("flab")
 
+#parameters and aruguments
+def my_function(parameter):
+  cat = parameter + " and the cat"
+  print(f"You can assign values to the parameter of a function. {cat}")
 
-
+my_function("Watsy")
