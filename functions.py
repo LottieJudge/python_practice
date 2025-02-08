@@ -57,7 +57,18 @@ def function(x,y):
 
 function(a,b)
 
-    
+#cost calculator - plabe tickets x amount of pople, cost of room, two to a room, so if passenger number over 2 double etc, then times  by night then add all together 
 
+def new_york_cost(plane_ticket, passenger_number, hotel_price, days):
+  plane_total = plane_ticket * passenger_number
+  hotel_total = 0
+  if passenger_number <= 2:
+    hotel_total = hotel_price * days 
+  if passenger_number > 2: 
+    hotel_total = hotel_price * passenger_number / 2 * days 
+  trip_total = plane_total + hotel_total
+  return trip_total
 
+cost = new_york_cost(400, 2, 50, 5)
 
+print(cost)
