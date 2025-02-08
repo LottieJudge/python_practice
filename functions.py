@@ -48,6 +48,15 @@ def a_function(param1, param2):
   print(output)
 
 a_function(1,1)
+
+a = [1, 2, 3]
+b = [1, 2, 3]
+def function(x,y):
+  x.append(4)
+  y = y + [4]
+
+function(a,b)
+
     
 
 
