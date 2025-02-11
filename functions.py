@@ -79,3 +79,4 @@ positional_argument = "an argument that can be called by their position in the f
 keyword_argument = "arguments that can be called by their name"
 default_argument = "arguments that are given default values"
 
+def trip_planner(first_destination, second_destination, third_destination ):
