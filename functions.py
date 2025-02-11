@@ -72,3 +72,10 @@ def new_york_cost(plane_ticket, passenger_number, hotel_price, days):
 cost = new_york_cost(400, 2, 50, 5)
 
 print(cost)
+
+#Types of arguments 
+
+positional_argument = "an argument that can be called by their position in the function definition"
+keyword_argument = "arguments that can be called by their name"
+default_argument = "arguments that are given default values"
+
