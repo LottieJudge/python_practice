@@ -102,3 +102,7 @@ max_age = max(dog_age)
 min_age = min(dog_age)
 print(max_age)
 print(min_age)
+
+dog_food_price = 17.89
+nicer_price = round(dog_food_price, 1)
+print(nicer_price)
