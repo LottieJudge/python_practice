@@ -89,3 +89,35 @@ trip_planner("France", "Germany", "Denmark")
 trip_planner("Denmark", "France", "Germany")
 trip_planner(first_destination="Iceland", final_destination="Germany", second_destination="India")
 trip_planner("Brooklyn", "Queens")
+
+#built in vs user defined functions 
+
+#built in functions are methods that are already apart of the Python frame work e.g len()
+
+dogs = ["Watson", "Chewie", "Ziggy", "Harry", "Tug", "Kurgen", "Lucky"] 
+print(len(dogs))
+#the above uses two built in functions - print and len 
+dog_age = [6, 4, 12, 5, 6, 4, 1]
+max_age = max(dog_age)
+min_age = min(dog_age)
+print(max_age)
+print(min_age)
+
+dog_food_price = 17.89
+nicer_price = round(dog_food_price, 1)
+print(nicer_price)
+
+#Variable access e.g local, global - if a variable is inside a function the scope of the variable is local, if it's outside of the function it's global 
+
+global_var = "this variable is global"
+def function():
+  local_var = "this is local"
+
+print(global_var)
+#print(local_var) #produces a syntax error! 
+
+#return keyword - returns the output of a function 
+def sum(a, b):
+  return a + b
+
+print(sum(1,2))
