@@ -115,3 +115,9 @@ def function():
 
 print(global_var)
 #print(local_var) #produces a syntax error! 
+
+#return keyword - returns the output of a function 
+def sum(a, b):
+  return a + b
+
+print(sum(1,2))
