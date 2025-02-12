@@ -99,5 +99,6 @@ print(len(dogs))
 #the above uses two built in functions - print and len 
 dog_age = [6, 4, 12, 5, 6, 4, 1]
 max_age = max(dog_age)
-min_age = 
+min_age = min(dog_age)
 print(max_age)
+print(min_age)
