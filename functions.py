@@ -89,3 +89,10 @@ trip_planner("France", "Germany", "Denmark")
 trip_planner("Denmark", "France", "Germany")
 trip_planner(first_destination="Iceland", final_destination="Germany", second_destination="India")
 trip_planner("Brooklyn", "Queens")
+
+#built in vs user defined functions 
+
+#built in functions are methods that are already apart of the Python frame work e.g len()
+
+dogs = ["Watson", "Chewie", "Ziggy", "Harry", "Tug", "Kurgen", "Lucky"] 
+print(len(dogs))
