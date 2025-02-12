@@ -96,3 +96,8 @@ trip_planner("Brooklyn", "Queens")
 
 dogs = ["Watson", "Chewie", "Ziggy", "Harry", "Tug", "Kurgen", "Lucky"] 
 print(len(dogs))
+#the above uses two built in functions - print and len 
+dog_age = [6, 4, 12, 5, 6, 4, 1]
+max_age = max(dog_age)
+min_age = 
+print(max_age)
