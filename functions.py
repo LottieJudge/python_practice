@@ -106,3 +106,12 @@ print(min_age)
 dog_food_price = 17.89
 nicer_price = round(dog_food_price, 1)
 print(nicer_price)
+
+#Variable access e.g local, global - if a variable is inside a function the scope of the variable is local, if it's outside of the function it's global 
+
+global_var = "this variable is global"
+def function():
+  local_var = "this is local"
+
+print(global_var)
+#print(local_var) #produces a syntax error! 
