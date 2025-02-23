@@ -145,4 +145,20 @@ destination_setup("London", "Shetland", estimate)
 a_b = lambda a, b : a * b
 print(a_b(1,2))
 
+#farenheit to celcius 
 
+def f_to_c(f_temp):
+  c_temp = (f_temp - 32) * 5/9
+  c_temp = round(c_temp, 2)
+  return c_temp
+
+f100_in_celcius = f_to_c(100)
+print(f100_in_celcius)
+
+#celcius to farenhiet 
+
+def c_to_f(c_temp):
+  f_temp = c_temp * (9/5) + 32
+  return f_temp
+c0_in_farenheit = c_to_f(0)
+print(c0_in_farenheit)
