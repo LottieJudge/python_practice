@@ -132,3 +132,6 @@ def estimated_time_rounded(estimated_time):
   return rounded_time
 
 estimated_time_rounded(3.3)
+
+def destination_setup(origin, destination, estimated_time, mode_of_transport = "Car"):
+  
