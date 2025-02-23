@@ -141,4 +141,8 @@ def destination_setup(origin, destination, estimated_time, mode_of_transport = "
 
 destination_setup("London", "Shetland", estimate)
 
-#lambda function
+#lambda function - anonymous function
+a_b = lambda a, b : a * b
+print(a_b(1,2))
+
+
