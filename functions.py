@@ -140,3 +140,5 @@ def destination_setup(origin, destination, estimated_time, mode_of_transport = "
   print(f"It will take approximately {estimated_time} hours")
 
 destination_setup("London", "Shetland", estimate)
+
+#lambda function
