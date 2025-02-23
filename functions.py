@@ -121,3 +121,14 @@ def sum(a, b):
   return a + b
 
 print(sum(1,2))
+
+def trip_planner_welcome(name):
+  print(f"Welcome to trip planner {name}")
+
+trip_planner_welcome("Lottie")
+
+def estimated_time_rounded(estimated_time):
+  rounded_time = round(estimated_time)
+  return rounded_time
+
+estimated_time_rounded(3.3)
