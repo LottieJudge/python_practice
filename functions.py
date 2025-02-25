@@ -171,3 +171,11 @@ def get_force(mass, acceleration):
 train_force = get_force(train_mass, train_acceleration)
 
 print(train_force)
+
+num1 = 6
+num2 = 4
+
+if(num1 + num2 != 10):
+  print(True)
+if(num1 + num2 == 10):
+  print(False)
