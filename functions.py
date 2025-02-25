@@ -175,7 +175,10 @@ print(train_force)
 num1 = 6
 num2 = 4
 
+not_ten = ''
 if(num1 + num2 != 10):
-  print(True)
+  not_ten = True
 if(num1 + num2 == 10):
-  print(False)
+  not_ten = False
+
+print(not_ten)
