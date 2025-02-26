@@ -140,3 +140,45 @@ def destination_setup(origin, destination, estimated_time, mode_of_transport = "
   print(f"It will take approximately {estimated_time} hours")
 
 destination_setup("London", "Shetland", estimate)
+
+#lambda function - anonymous function
+a_b = lambda a, b : a * b
+print(a_b(1,2))
+
+#farenheit to celcius 
+
+def f_to_c(f_temp):
+  c_temp = (f_temp - 32) * 5/9
+  c_temp = round(c_temp, 2)
+  return c_temp
+
+f100_in_celcius = f_to_c(100)
+print(f100_in_celcius)
+
+#celcius to farenhiet 
+
+def c_to_f(c_temp):
+  f_temp = c_temp * (9/5) + 32
+  return f_temp
+c0_in_farenheit = c_to_f(0)
+print(c0_in_farenheit)
+
+train_mass = 22680
+train_acceleration = 10
+def get_force(mass, acceleration):
+  return mass * acceleration
+
+train_force = get_force(train_mass, train_acceleration)
+
+print(train_force)
+
+num1 = 6
+num2 = 4
+
+not_ten = ''
+if(num1 + num2 != 10):
+  not_ten = True
+if(num1 + num2 == 10):
+  not_ten = False
+
+print(not_ten)
