@@ -14,10 +14,10 @@ def canPlaceFlowers(flowerbed, n):
             if(flowerbed[index] == 0):
               pre = flowerbed[index -1]
               post = flowerbed[index +1]
-              if(pre == num) and (post == num):
-                  return True
-        else:
-          return False
+              if (pre == num) and (post == num):
+               
+      else:
+        return False
 
-counted = canPlaceFlowers([1, 0, 0, 0, 1], 2)
+counted = canPlaceFlowers([1, 0, 0, 0, 0, 1], 2)
 print(counted)
