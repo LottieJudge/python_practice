@@ -9,6 +9,7 @@
 def canPlaceFlowers(flowerbed, n):
       count_zero = flowerbed.count(0)
       count_one = flowerbed.count(1)
+      
       if(count_zero > count_one) and (count_zero > n + 1):
           return True
       else:
