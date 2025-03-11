@@ -105,13 +105,13 @@ numbers_dub = []
 for number in numbers:
   numbers_dub.append(number * 2)
 
-print(numbers_dub)
+# print(numbers_dub)
 
 #into this 
 
 numbersTwo = [3, 5, 8, 10, 18]
 doubled = [num * 2 for num in numbersTwo]
-print(doubled)
+# print(doubled)
 
 #very nice very smooth
 
@@ -121,5 +121,21 @@ numbersThree = [-18, -7, -1, 3, 5, 8, 10, 18]
 only_neg_doub = [num * 2 for num in numbersThree if num < 0 ]
 print(only_neg_doub)
 
+# using sublist 
+grouped_topics = [["Algorithms", "Data Structures", "AI"], ["Linear Regression", "SQL"]]
+for sublist in grouped_topics:
+  for sub_el in sublist:
+    print(sub_el)
 
+for i in range(3):
+  print(i)
 
+numbers=[2, 4, 6, 8]
+for number in numbers:
+  print("hello")
+
+numbers=[1, 1, 2, 3]
+for number in numbers:
+  if number % 2 == 0:
+    break
+  print(number)
