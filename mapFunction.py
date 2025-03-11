@@ -15,10 +15,9 @@ doubled_nums = map(double, numbers)
 
 print(list(doubled_nums))
 
-def findRemain(x, y):
-  return x % y
+# lambda and Map 
+squared = map(lambda x: x ** 2, numbers)
+sq_list = list(map(lambda x: x ** 2, numbers))
 
-numbers=[4, 800, 70, 86, 900]
-modulo = 7
-
-map(double, numbers, modulo)
+print(squared)
+print(sq_list)
