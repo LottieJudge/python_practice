@@ -1,7 +1,8 @@
-#Python practice 
+# 🐍 Python Practice and Revision
 
-Accessible from all cpu's
+This repository is a collection of Python practice exercises, notes, and revision materials. It serves as a personal learning space to reinforce concepts, experiment with code, and track progress.
 
-python book/ codecademy course 
-
-practice - array manipulation 
+## 📌 About
+- Covers exercises from **Python books**, **Codecademy courses**, **CoderByte**, **LeetCode** && **Tech Assessments**.
+- Includes **notes, small projects, and problem-solving exercises**.
+- Organised for **easy reference** across different devices.
