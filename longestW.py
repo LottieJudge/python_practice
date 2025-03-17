@@ -2,8 +2,10 @@ import re
 
 def LongestWord(sen):
   senList = sen.split(" ")
-  for word in senList:
-    wordNoChars = re.sub(r"[^a-zA-Z]"," ", word)
-    newList = senList.append(wordNoChars)
-          
+  senList = [re.sub(r"[^a-zA-Z]","",-) for - in senList]
+  longestWord = max(senList)
+  print(longestWord)
+  print(senList)
+
+
 print(LongestWord("fun&!! time"))
