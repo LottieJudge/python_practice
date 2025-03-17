@@ -2,9 +2,9 @@ import re
 
 def LongestWord(sen):
   senList = sen.split(" ")
-  senList = [re.sub(r"[^a-zA-Z]","",-) for - in senList]
-  longestWord = max(senList)
-  print(longestWord)
+  senList = [re.sub(r"[^a-zA-Z]","",_) for _ in senList]
+  longestWord = max(senList, key=len)
+  return longestWord
   print(senList)
 
 
