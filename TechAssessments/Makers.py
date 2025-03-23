@@ -1,9 +1,9 @@
 #functions from assessments etc 
 import math
-#figure out the factorial
+  #figure out the factorial
 def RecursionChallenge(num):
-  num = math.factorial(num)
-  return num
+    num = math.factorial(num)
+    return num
 
 print(RecursionChallenge(8))
 
@@ -50,3 +50,15 @@ def ArrayChallenge(strArr):
   return strArr
 
 print(ArrayChallenge(["10011", "10100"]))
+
+a = 10
+b = 10 
+print(a + b)
+
+
+
+def StringChallenge(strParam):
+  for i, char in strParam:
+    if char[i] == char[i]:
+
+    
