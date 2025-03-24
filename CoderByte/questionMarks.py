@@ -2,8 +2,8 @@ import re
 
 def QuestionsMarks(strParam):
   QM = "?"
-  strParam = re.sub(r'/^[A-Z]+$/i', '', strParam)
-  print(strParam)
+  newParam = re.sub(r'[A-Za-z]', '', strParam)
+  print(newParam)
 
   #  if strParam.count(QM) > 3:
 
