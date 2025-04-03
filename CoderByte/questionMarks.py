@@ -4,8 +4,9 @@ def QuestionsMarks(strParam):
   QM = "?"
   newParam = re.sub(r'[A-Za-z]', '', strParam)
   print(newParam)
-
-  #  if strParam.count(QM) > 3:
+  for i, question in enumerate(newParam):
+     if strParam.count(QM) < 3:
+        print(False)
 
 
 # keep this function call here 
