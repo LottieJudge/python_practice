@@ -2,6 +2,14 @@
 
 def append_sum(list):
   last_two = list[-2:]
-  return last_two
+  sum_list = sum(last_two)
+  list.append(sum_list)
+  last_two = list[-2:]
+  sum_list = sum(last_two)
+  list.append(sum_list)
+  last_two = list[-2:]
+  sum_list = sum(last_two)
+  list.append(sum_list)
+  return list
 
 print(append_sum([1, 1, 2]))
