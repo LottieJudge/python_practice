@@ -2,4 +2,8 @@
 
 def appendSize(list):
   length = len(list)
-  print(length)
+  list.append(length)
+  return list
+  
+
+print(appendSize([1,2,3]))
