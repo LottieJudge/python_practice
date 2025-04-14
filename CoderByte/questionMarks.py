@@ -5,10 +5,8 @@ def QuestionsMarks(strParam):
       num1 = num[0]
       num2 = num + 1
       if num1 + num2 == 10:
-         
-
-    
-  return answer
+        
+ 
 
 # keep this function call here 
-print(QuestionsMarks('arrb6???4xxbl5???eee5'))
+print(QuestionsMarks('arrb6???4xxbl5???eee5'))  
