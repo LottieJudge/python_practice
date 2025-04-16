@@ -59,6 +59,4 @@ print(a + b)
 
 def StringChallenge(strParam):
   for i, char in strParam:
-    if char[i] == char[i]:
-
-    
+    if char[i] == char[i]
