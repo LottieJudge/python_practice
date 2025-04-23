@@ -1,7 +1,7 @@
 def add_greetings(names):
-  count = names.count
+  greeting_list = []
   for name in names: 
-    greeting = f"Hello, {name}"
-  return greeting
+    greeting_list.append(f"Hello, {name}")
+
 
 print(add_greetings(["Owen", "Max", "Sophie"]))
