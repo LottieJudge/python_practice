@@ -1,7 +1,7 @@
 def reversed_list(lst1, lst2):
   # using slicing instead of reverse ! reverse reruns none which is interesting so should use slicing to return
   reversed = lst1[::-1]
-  if reversed_list == lst2:
+  if reversed == lst2:
     return True 
   else:
     return False 
