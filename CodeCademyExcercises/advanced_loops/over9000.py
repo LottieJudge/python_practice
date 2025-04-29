@@ -1,7 +1,7 @@
 def over_nine_thousand(lst):
   num = 0
-  while num <= 9000:
-    for int in lst:
+  for int in lst:
+     while num <= 9000:
       num += int
   return num
   
