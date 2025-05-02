@@ -15,3 +15,5 @@ def account_generator(first_name, last_name):
   account_name = f"{first_splice}{last_splice}"
   return account_name
 
+# len - finding the length to the string 
+print(len(dog)) #prints six 
