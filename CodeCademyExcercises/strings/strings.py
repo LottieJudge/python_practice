@@ -17,3 +17,6 @@ def account_generator(first_name, last_name):
 
 # len - finding the length to the string 
 print(len(dog)) #prints six 
+# you can use len with indexing to get the last letter of string 
+print(dog[len(dog)-1]) 
+#was going to be like whats more pythonic but I assume most pythonic would be making it a reusable function?
