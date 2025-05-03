@@ -44,3 +44,10 @@ def count_all_letters(str):
   return number
 
 print(count_all_letters(dog))
+
+# checking if it contains a letter function - although not pythonic 
+def letter_check(word, letter):
+  for char in word:
+    if char == letter:
+       return True
+  return False
