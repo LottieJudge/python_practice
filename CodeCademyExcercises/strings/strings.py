@@ -51,3 +51,14 @@ def letter_check(word, letter):
     if char == letter:
        return True
   return False
+
+# using in and not in 
+
+def common_letters(str1, str2):
+  list = []
+  for letter in str1:
+    if letter in str2 and letter not in list:
+      list.append(letter)
+  return list
+
+print(common_letters("Scott Godfrey", "Lottie Judge"))
