@@ -22,3 +22,7 @@ print(dog[len(dog)-1])
 #was going to be like whats more pythonic but I assume most pythonic would be making it a reusable function?
 # negative indexing - access the end much quicker than using len 
 print(dog[-1])
+# negative indexing slicing - last three 
+print(dog[-3:])
+
+
