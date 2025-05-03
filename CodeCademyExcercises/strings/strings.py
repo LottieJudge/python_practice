@@ -25,4 +25,15 @@ print(dog[-1])
 # negative indexing slicing - last three 
 print(dog[-3:])
 
+# escape characters - enabling use of pythonic charcters such as " " in a string 
+best_dog = "Watsons owner Lottie said \"Watson is for sure the best dog!\""
 
+print(best_dog)
+
+# iterating through strings 
+best_dogs = "Watson and Chewie"
+def print_all_letters(str):
+  for letter in str:
+    print(letter)
+
+print_all_letters(dog)   
