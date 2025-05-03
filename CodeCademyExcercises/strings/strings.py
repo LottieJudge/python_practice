@@ -35,5 +35,12 @@ best_dogs = "Watson and Chewie"
 def print_all_letters(str):
   for letter in str:
     print(letter)
-
 print_all_letters(dog)   
+
+def count_all_letters(str):
+  number = 0
+  for letter in str:
+    number += 1
+  return number
+
+print(count_all_letters(dog))
