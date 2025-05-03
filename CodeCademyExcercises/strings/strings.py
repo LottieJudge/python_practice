@@ -20,3 +20,5 @@ print(len(dog)) #prints six
 # you can use len with indexing to get the last letter of string 
 print(dog[len(dog)-1]) 
 #was going to be like whats more pythonic but I assume most pythonic would be making it a reusable function?
+# negative indexing - access the end much quicker than using len 
+print(dog[-1])
