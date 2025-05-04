@@ -62,3 +62,12 @@ def common_letters(str1, str2):
   return list
 
 print(common_letters("Scott Godfrey", "Lottie Judge"))
+
+# lower, upper and title built in methods 
+
+name = "lottIe jUdGe"
+name_lower = name.lower()
+name_title = name.title()
+name_upper = name.upper()
+
+print(name_lower, name_title, name_upper)
