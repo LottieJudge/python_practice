@@ -20,3 +20,45 @@ print(len(dog)) #prints six
 # you can use len with indexing to get the last letter of string 
 print(dog[len(dog)-1]) 
 #was going to be like whats more pythonic but I assume most pythonic would be making it a reusable function?
+# negative indexing - access the end much quicker than using len 
+print(dog[-1])
+# negative indexing slicing - last three 
+print(dog[-3:])
+
+# escape characters - enabling use of pythonic charcters such as " " in a string 
+best_dog = "Watsons owner Lottie said \"Watson is for sure the best dog!\""
+
+print(best_dog)
+
+# iterating through strings 
+best_dogs = "Watson and Chewie"
+def print_all_letters(str):
+  for letter in str:
+    print(letter)
+print_all_letters(dog)   
+
+def count_all_letters(str):
+  number = 0
+  for letter in str:
+    number += 1
+  return number
+
+print(count_all_letters(dog))
+
+# checking if it contains a letter function - although not pythonic 
+def letter_check(word, letter):
+  for char in word:
+    if char == letter:
+       return True
+  return False
+
+# using in and not in 
+
+def common_letters(str1, str2):
+  list = []
+  for letter in str1:
+    if letter in str2 and letter not in list:
+      list.append(letter)
+  return list
+
+print(common_letters("Scott Godfrey", "Lottie Judge"))
