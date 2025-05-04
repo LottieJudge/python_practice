@@ -71,3 +71,9 @@ name_title = name.title()
 name_upper = name.upper()
 
 print(name_lower, name_title, name_upper)
+
+# split method takes in an argument and will split the string based on that argument 
+
+sentence = "I love dogs"
+sentence_split = sentence.split(' ')
+print(sentence_split)
