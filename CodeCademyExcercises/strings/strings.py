@@ -117,3 +117,10 @@ winter_trees_lines = ['All the complicated details', 'of the attiring and', 'the
 
 winter_trees_full = "\n".join(winter_trees_lines)
 print(winter_trees_full)
+
+# strip() - removing elements from strings to clean them up, e.g whitespace 
+
+bad_dogs = "    there's no bad dogs     "
+print(bad_dogs)
+print(bad_dogs.strip(" "))
+# strips from either side but not the middle 
