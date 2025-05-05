@@ -124,3 +124,19 @@ bad_dogs = "    there's no bad dogs     "
 print(bad_dogs)
 print(bad_dogs.strip(" "))
 # strips from either side but not the middle 
+# can use anyhthing as the arugument 
+
+bad_humans = "lots of bad humans tho !!!!!!!!"
+print(bad_humans.strip("!"))
+
+love_maybe_lines = ['Always    ', '     in the middle of our bloodiest battles  ', 'you lay down your arms', '           like flowering mines    ','\n' ,'   to conquer me home.    ']
+
+love_maybe_lines_stripped = []
+
+for line in love_maybe_lines:
+  love_maybe_lines_stripped.append(line.strip())
+
+print(love_maybe_lines_stripped)
+
+love_maybe_full = "\n".join(love_maybe_lines_stripped)
+print(love_maybe_full)
