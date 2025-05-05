@@ -107,3 +107,7 @@ print(spring_storm_lines)
 my_dogs = ["Watson", "Chewie", "Harry", "Tug", "Ziggy", "Kurgen"]
 
 print(" ".join(my_dogs))
+
+# can also join on a comma to create a CSV
+
+print(",".join(my_dogs))
