@@ -102,4 +102,8 @@ spring_storm_lines = spring_storm_text.split("\n")
 
 print(spring_storm_lines)
 
-# joining strings 
+# joining strings. the delimiter is where you want the string to join and the arugument is the string it'self - the opposite to split 
+
+my_dogs = ["Watson", "Chewie", "Harry", "Tug", "Ziggy", "Kurgen"]
+
+print(" ".join(my_dogs))
