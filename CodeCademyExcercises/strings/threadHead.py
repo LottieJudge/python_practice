@@ -139,3 +139,15 @@ for sale in sales:
   total_sales =+ newSale
 
 print(total_sales)
+
+thread_sold_split = []
+
+for thread in thread_sold:
+  if "&" in thread: 
+    thread_sold_split.append(thread.split("&"))
+  else: 
+     thread_sold_split.append(thread)
+print(thread_sold_split)
+
+def color_count(color):
+  thread_sold_split.count(color)
