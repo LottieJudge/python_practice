@@ -142,9 +142,10 @@ print(total_sales)
 
 thread_sold_split = []
 
+# using extend flattens a list so every string on the split becomes its own list item 
 for thread in thread_sold:
   if "&" in thread: 
-    thread_sold_split.append(thread.split("&"))
+    thread_sold_split.extend(thread.split("&"))
   else: 
      thread_sold_split.append(thread)
 print(thread_sold_split)
