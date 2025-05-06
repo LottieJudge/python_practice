@@ -152,3 +152,8 @@ print(thread_sold_split)
 
 def color_count(color):
   thread_sold_split.count(color)
+
+colors = ['red', 'yellow', 'green', 'white', 'black', 'blue', 'purple']
+
+for color in colors:
+   print("{0} {1}".format(color, color_count(color)))
