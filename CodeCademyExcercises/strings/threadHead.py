@@ -110,6 +110,13 @@ daily_sales_replaced = []
 daily_sales_replaced = daily_sales.replace(";,;", ";;;")
 
 daily_transactions = daily_sales_replaced.split(",")
-print(daily_transactions)
+
 
 daily_transaction_split = []
+
+for trans in daily_transactions: 
+  daily_transaction_split.append(trans.split(";;;"))
+
+transactions_clean = []
+for trans in daily_transaction_split:
+  transactions_clean.append([item.strip() for item in trans])
