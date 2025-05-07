@@ -22,4 +22,7 @@ books_i_like["Biography"] = "Strong Female Character"
 print(books_i_like["Biography"])
 
 # Dict comprehensions (combining dictionaries)
-
+drinks = ["espresso", "chai", "decaf", "drip"]
+caffeine = [64, 40, 0, 120]
+full_menu = {key:value for key, value in zip(drinks,caffeine)}
+print(full_menu)
