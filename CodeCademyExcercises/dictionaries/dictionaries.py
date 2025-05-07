@@ -4,5 +4,16 @@ menu = {"Latte":3, "Flat White": 3.5, "Tea": 1.5, "Filter": 1}
 print(menu)
 
 # dictionaries can be any data type - even more dictionaries!!! 
-books_i_like = {"Nature":["The Golden Mole", "English Pastorial", "Britains Rainforests"], "Fantasy":["Wee Free Men", "Rivers of London", "Dune"]}
+books_i_like = {"Nature":["The Golden Mole", "English Pastorial", "Britains Rainforests"], "Fantasy":["Wee Free Men", "Rivers of London", "Villager"]}
 print(books_i_like)
+
+# invalid keys - e.g a list as a key - just wont cut it 
+
+# adding a key/new item
+books_i_like["SciFi"] = "Dune"
+print(books_i_like)
+
+#method for adding various key:value pairs .update()
+books_i_like.update({"Biography":"Down the Drain", "Fiction - cosy": "Thursday Murder Club", "SelfHelp":"How to Quit Smoking"})
+print(books_i_like)
+
