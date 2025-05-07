@@ -17,3 +17,6 @@ print(books_i_like)
 books_i_like.update({"Biography":"Down the Drain", "Fiction - cosy": "Thursday Murder Club", "SelfHelp":"How to Quit Smoking"})
 print(books_i_like)
 
+# Overwriting values - using the key you can overwrite it 
+books_i_like["Biography"] = "Strong Female Character"
+print(books_i_like["Biography"])
