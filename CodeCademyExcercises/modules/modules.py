@@ -22,3 +22,6 @@ total_cost = cost_of_gum + cost_of_pop
 print(total_cost)
 print(0.10 + 1.35)
 # big difference using decimal but I wonder if theres a more built in method without importing from a module?
+
+from moduleCreate import always_nine
+print(always_nine())
