@@ -12,3 +12,11 @@ def score_word(word):
   return point_total
 
 print(score_word("PAL"))
+
+player_to_words = {"player1":["BLUE", "TENNIS", "EXIT"],"word":["EARTH", "EYES", "MACHINE"],"Lexi Con":["ERASER", "BELLY", "HUSKY"], "Prof Reader":["ZAP", "COMA", "PERIOD"]}
+
+player_to_points = {}
+for player, value in player_to_words.items():
+  player_points = 0
+  for word in value:
+    player_points += score_word(word)
