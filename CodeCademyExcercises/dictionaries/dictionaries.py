@@ -63,3 +63,12 @@ total_exercises = 0
 for x in num_exercises.values():
   total_exercises += x
 print(total_exercises)
+
+# get all items, get the key and the value with items()
+
+for genre, value in books_i_like.items():
+  print(f"{genre} has a value of {value}")
+
+# codecademy second go 
+
+pct_women_in_occupation = {"CEO": 28, "Engineering Manager": 9, "Pharmacist": 58, "Physician": 40, "Lawyer": 37, "Aerospace Engineer": 9}
