@@ -30,4 +30,9 @@ print(full_menu)
 # getting a key and accessing the keys in the dictionary- its indexing 
 print(full_menu["decaf"])
 
+# get() method to get a key instead, if the key doesn't exist it returns none 
+
+full_menu.get("tea") #will return none instead of an error 
+
+
 
