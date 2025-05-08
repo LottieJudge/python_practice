@@ -72,3 +72,5 @@ for genre, value in books_i_like.items():
 # codecademy second go 
 
 pct_women_in_occupation = {"CEO": 28, "Engineering Manager": 9, "Pharmacist": 58, "Physician": 40, "Lawyer": 37, "Aerospace Engineer": 9}
+for title, value in pct_women_in_occupation.items():
+  print(f"Women make up {value} percent of {title}s.")
