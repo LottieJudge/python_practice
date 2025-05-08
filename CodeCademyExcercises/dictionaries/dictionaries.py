@@ -33,6 +33,7 @@ print(full_menu["decaf"])
 # get() method to get a key instead, if the key doesn't exist it returns none 
 
 full_menu.get("tea") #will return none instead of an error 
-
+# or you can provide a default value and it will add it 
+full_menu.get("tea", 30)
 
 
