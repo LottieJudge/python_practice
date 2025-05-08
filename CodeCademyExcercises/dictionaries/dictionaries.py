@@ -61,5 +61,5 @@ num_exercises = {"functions": 10, "syntax": 13, "control flow": 15, "loops": 22,
 
 total_exercises = 0 
 for x in num_exercises.values():
-  num_exercises += x
+  total_exercises += x
 print(total_exercises)
