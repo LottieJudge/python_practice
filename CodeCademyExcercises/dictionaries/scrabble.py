@@ -11,4 +11,4 @@ def score_word(word):
     point_total += letter_to_points.get(x,0)
   return point_total
 
-print(score_word("pal"))
+print(score_word("PAL"))
