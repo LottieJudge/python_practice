@@ -23,3 +23,7 @@ for player, value in player_to_words.items():
   player_to_points[player] = player_points
 
 print(player_to_points)
+
+for player in player_to_words:
+  print(player)
+print(player_to_points["word"])
