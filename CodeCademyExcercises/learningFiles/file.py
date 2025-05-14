@@ -11,3 +11,9 @@ with open("/Users/lottiejudge/Desktop/codingFiles/python_practice/CodeCademyExce
   first_line = poem_byLine.readline()
   second_line = poem_byLine.readline()
   print(second_line)
+
+with open("/Users/lottiejudge/Desktop/codingFiles/python_practice/CodeCademyExcercises/learningFiles/new_poem.txt", "w") as new_poem:
+  new_poem.write("I cry on the bank of Blackfriars, filling up old lady Thames to the brim breaking the barrier that fences her in she floods my entire city as the newscaster reads many dead, such a pity x ")
+
+with open("/Users/lottiejudge/Desktop/codingFiles/python_practice/CodeCademyExcercises/learningFiles/new_poem.txt") as new_poem_byLine:
+  print(new_poem_byLine.readlines())
