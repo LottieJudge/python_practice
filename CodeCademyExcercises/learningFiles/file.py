@@ -17,3 +17,7 @@ with open("/Users/lottiejudge/Desktop/codingFiles/python_practice/CodeCademyExce
 
 with open("/Users/lottiejudge/Desktop/codingFiles/python_practice/CodeCademyExcercises/learningFiles/new_poem.txt") as new_poem_byLine:
   print(new_poem_byLine.readlines())
+
+with open("/Users/lottiejudge/Desktop/codingFiles/python_practice/CodeCademyExcercises/learningFiles/new_poem.txt") as poem_append: 
+  poem_append.write("\n... Causey x ")
+  print(poem_append)
