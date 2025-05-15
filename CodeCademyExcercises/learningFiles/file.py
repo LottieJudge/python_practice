@@ -19,6 +19,5 @@ with open("/Users/lottiejudge/Desktop/codingFiles/python_practice/CodeCademyExce
   print(new_poem_byLine.readlines())
 
 with open("/Users/lottiejudge/Desktop/codingFiles/python_practice/CodeCademyExcercises/learningFiles/new_poem.txt", "a") as poem_append: 
-  
   poem_append.write("\n... Causey x ")
   print(poem_append)
