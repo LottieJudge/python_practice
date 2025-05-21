@@ -39,6 +39,11 @@ class BullDog:
 watson_dog = BullDog()
 watson_dog.bulldog_to_human()
 
+# codecademy practice 
+class Rules:
+  def washing_brushes():
+    return "Point bristles towards the basin while washing your brushes."
+
 
 
 
