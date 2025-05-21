@@ -43,6 +43,17 @@ watson_dog.bulldog_to_human()
 class Rules:
   def washing_brushes():
     return "Point bristles towards the basin while washing your brushes."
+  
+# methods with arguments, adding more than one argument. EG to make a sum or do something with the data 
+
+class DistanceConverter:
+  kms_in_a_mile = 1.609
+  def how_many_kms(self, miles):
+    return miles * self.kms_in_a_mile
+
+converter = DistanceConverter() #initiating 
+three_point_one = converter.how_many_kms(3.1)
+print(three_point_one)
 
 
 
