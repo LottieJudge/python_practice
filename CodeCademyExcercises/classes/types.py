@@ -17,3 +17,11 @@ class BabysFirstClass:
 
 
 first_class = BabysFirstClass()
+
+# OOP - a class is also an object, defining classes and creating objects to represent the responsibilities is known as OOP. Instanciation takes a class and turns into an object and type() does the opposite, taking an objet and returning a class 
+
+baby_type = type(first_class)
+print(baby_type)
+
+
+
