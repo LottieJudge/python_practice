@@ -23,5 +23,7 @@ first_class = BabysFirstClass()
 baby_type = type(first_class)
 print(baby_type)
 
+# class variables 
+
 
 
