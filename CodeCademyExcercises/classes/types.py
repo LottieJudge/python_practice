@@ -23,7 +23,15 @@ first_class = BabysFirstClass()
 baby_type = type(first_class)
 print(baby_type)
 
-# class variables 
+# class variables - same data avilable to every instance of a, class, include it in the body of the class 
+
+class BestDog: 
+  name = "Watson"
+
+
+
+
+
 
 
 
