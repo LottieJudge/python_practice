@@ -28,6 +28,16 @@ print(baby_type)
 class BestDog: 
   name = "Watson"
 
+# methods are functions defined within the class. the first argument in a method is always the object that is calling the method. Convention says to anme this argument self, they always need at least one argument. 
+
+class BullDog: 
+  dog_time_dilation = 8
+
+  def bulldog_to_human(self):
+    print(f'Bulldogs experience {self.dog_time_dilation} years for every one human year!')
+  
+
+
 
 
 
