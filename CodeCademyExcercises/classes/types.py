@@ -60,10 +60,15 @@ print(three_point_one)
 class Circle:
   pi = 3.14
   def area(self, radius):
-    return Circle.pi * radius ** self
+    return Circle.pi * radius ** 2
 
+# creating an instance 
+circle = Circle()
+pizza_area = circle.area(12 / 2)
+teaching_table_area = circle.area(36 / 2)
+round_room_area = circle.area(11460 / 2)
 
-
+print(pizza_area)
 
 
 
