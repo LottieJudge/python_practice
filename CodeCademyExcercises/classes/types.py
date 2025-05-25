@@ -70,7 +70,18 @@ round_room_area = circle.area(11460 / 2)
 
 print(pizza_area)
 
-# constructors 
+# constructors - dunder methods e.g __init__ - this means the method is called every time an instance is made of a Class 
+
+class Circle:
+  pi = 3.14
+  
+  # Add constructor here:
+  def __init__(self, diameter):
+    print(f"New circle with diameter: {diameter}")
+
+teaching_table = Circle(36)
+   
+
 
 
 
