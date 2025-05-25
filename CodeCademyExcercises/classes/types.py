@@ -55,6 +55,12 @@ converter = DistanceConverter() #initiating
 three_point_one = converter.how_many_kms(3.1)
 print(three_point_one)
 
+# codecademy practice - arguments within class functions
+
+class Circle:
+  pi = 3.14
+  def area(self, radius):
+    return Circle.pi * radius ** self
 
 
 
