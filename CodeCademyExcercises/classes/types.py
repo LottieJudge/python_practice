@@ -81,6 +81,19 @@ class Circle:
 
 teaching_table = Circle(36)
    
+# instance variables -The data held by an object is referred to as an instance variable. Instance variables aren’t shared by all instances of a class — they are variables that are specific to the object they are attached to.
+
+class Dogs:
+  pass
+
+watson = Dogs()
+chewie = Dogs()
+
+watson.name = 'Watson'
+chewie.name = 'Chewie'
+
+names = "My dogs are called {} and {}".format(watson.name, chewie.name)
+print(names)
 
 
 
