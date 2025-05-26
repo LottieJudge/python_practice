@@ -95,6 +95,16 @@ chewie.name = 'Chewie'
 names = "My dogs are called {} and {}".format(watson.name, chewie.name)
 print(names)
 
+# attribute functions - if we try to access an attribute (class instance or variable eg) will throw an error but to check if something has an attribute we can use hasattr() method to return true or false or getattr() to return the attribute 
+
+# hasattr(object, “attribute”) has two parameters:
+# object : the object we are testing to see if it has a certain attribute
+# attribute : name of attribute we want to see if it exists
+
+# getattr(object, “attribute”, default) has three parameters (one of which is optional):
+# object : the object whose attribute we want to evaluate
+# attribute : name of attribute we want to evaluate
+# default : the value that is returned if the attribute does not exist (note: this parameter is optional)
 
 
 
