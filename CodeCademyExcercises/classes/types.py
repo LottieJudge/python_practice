@@ -133,12 +133,45 @@ print(medium_pizza.circumference(), teaching_table.circumference(), round_room.c
 
 # everythings an object! dir() will return an objects attrributes at runtime, Python automatically adds a number of attributes to all objects that get created. These internal attributes are usually indicated by double-underscores.
 
-print(dir(5))
+# print(dir(5))
 
 def this_function_is_an_object(name):
   name = 'Lottie'
 
-print(dir(this_function_is_an_object))
+# print(dir(this_function_is_an_object))
 
-# string representation 
+# string representation - when printing a class it prints that weird line wihtout much info e.g <__main__.Employee object at 0x104e88390>. To return it as string we can use the dunder method __repr__(). this tells python what we want the string rep of the class to be. Only has one peram and returns a string 
 
+class Employee():
+  def __init__(self, name):
+    self.name = name
+
+  def __repr__(self):
+    return self.name
+
+argus = Employee("Argus Filch")
+print(argus)
+
+# string representation so you can just call the variable immediately 
+
+class RepCircle:
+  pi = 3.14
+  
+  def __init__(self, diameter):
+    self.radius = diameter / 2
+  
+  def area(self):
+    return self.pi * self.radius ** 2
+  
+  def circumference(self):
+    return self.pi * 2 * self.radius
+
+  def __repr__(self):
+    return "A circle with radius {radius}".format(radius = self.radius)
+  
+  
+medium_pizza = RepCircle(12)
+teaching_table = RepCircle(36)
+round_room = RepCircle(11460)
+
+print(medium_pizza, teaching_table, round_room)
