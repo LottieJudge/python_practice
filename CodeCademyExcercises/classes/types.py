@@ -114,5 +114,20 @@ for element in can_we_count_it:
   else:
     print(str(type(element)) + " does not have the count attribute :(")
 
+# self - adding in a self identfiying part of the function 
 
+class NewCircle:
+  pi = 3.14
+  def __init__(self, diameter):
+    print("Creating circle with diameter {d}".format(d=diameter))
+    # Add assignment for self.radius here:
+    self.radius = diameter / 2
+  def circumference(self):
+    return 2 * self.pi * self.radius
+
+medium_pizza = NewCircle(12)
+teaching_table = NewCircle(36)
+round_room = NewCircle(11460)
+
+print(medium_pizza.circumference(), teaching_table.circumference(), round_room.circumference())
 
