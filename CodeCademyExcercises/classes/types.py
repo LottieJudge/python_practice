@@ -131,3 +131,14 @@ round_room = NewCircle(11460)
 
 print(medium_pizza.circumference(), teaching_table.circumference(), round_room.circumference())
 
+# everythings an object! dir() will return an objects attrributes at runtime, Python automatically adds a number of attributes to all objects that get created. These internal attributes are usually indicated by double-underscores.
+
+print(dir(5))
+
+def this_function_is_an_object(name):
+  name = 'Lottie'
+
+print(dir(this_function_is_an_object))
+
+# string representation 
+
