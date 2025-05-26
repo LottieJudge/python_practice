@@ -35,9 +35,52 @@ class BullDog:
 
   def bulldog_to_human(self):
     print(f'Bulldogs experience {self.dog_time_dilation} years for every one human year!')
+
+watson_dog = BullDog()
+watson_dog.bulldog_to_human()
+
+# codecademy practice 
+class Rules:
+  def washing_brushes():
+    return "Point bristles towards the basin while washing your brushes."
   
+# methods with arguments, adding more than one argument. EG to make a sum or do something with the data 
 
+class DistanceConverter:
+  kms_in_a_mile = 1.609
+  def how_many_kms(self, miles):
+    return miles * self.kms_in_a_mile
 
+converter = DistanceConverter() #initiating 
+three_point_one = converter.how_many_kms(3.1)
+print(three_point_one)
+
+# codecademy practice - arguments within class functions
+
+class Circle:
+  pi = 3.14
+  def area(self, radius):
+    return Circle.pi * radius ** 2
+
+# creating an instance 
+circle = Circle()
+pizza_area = circle.area(12 / 2)
+teaching_table_area = circle.area(36 / 2)
+round_room_area = circle.area(11460 / 2)
+
+print(pizza_area)
+
+# constructors - dunder methods e.g __init__ - this means the method is called every time an instance is made of a Class 
+
+class Circle:
+  pi = 3.14
+  
+  # Add constructor here:
+  def __init__(self, diameter):
+    print(f"New circle with diameter: {diameter}")
+
+teaching_table = Circle(36)
+   
 
 
 
