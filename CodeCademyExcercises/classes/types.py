@@ -81,10 +81,97 @@ class Circle:
 
 teaching_table = Circle(36)
    
+# instance variables -The data held by an object is referred to as an instance variable. Instance variables aren’t shared by all instances of a class — they are variables that are specific to the object they are attached to.
 
+class Dogs:
+  pass
 
+watson = Dogs()
+chewie = Dogs()
 
+watson.name = 'Watson'
+chewie.name = 'Chewie'
 
+names = "My dogs are called {} and {}".format(watson.name, chewie.name)
+print(names)
 
+# attribute functions - if we try to access an attribute (class instance or variable eg) will throw an error but to check if something has an attribute we can use hasattr() method to return true or false or getattr() to return the attribute 
 
+# hasattr(object, “attribute”) has two parameters:
+# object : the object we are testing to see if it has a certain attribute
+# attribute : name of attribute we want to see if it exists
 
+# getattr(object, “attribute”, default) has three parameters (one of which is optional):
+# object : the object whose attribute we want to evaluate
+# attribute : name of attribute we want to evaluate
+# default : the value that is returned if the attribute does not exist (note: this parameter is optional)
+
+can_we_count_it = [{'s': False}, "sassafrass", 18, ["a", "c", "s", "d", "s"]]
+
+for element in can_we_count_it:
+  if hasattr(element, "count"):
+    print(str(type(element)) + " has the count attribute!")
+  else:
+    print(str(type(element)) + " does not have the count attribute :(")
+
+# self - adding in a self identfiying part of the function 
+
+class NewCircle:
+  pi = 3.14
+  def __init__(self, diameter):
+    print("Creating circle with diameter {d}".format(d=diameter))
+    # Add assignment for self.radius here:
+    self.radius = diameter / 2
+  def circumference(self):
+    return 2 * self.pi * self.radius
+
+medium_pizza = NewCircle(12)
+teaching_table = NewCircle(36)
+round_room = NewCircle(11460)
+
+print(medium_pizza.circumference(), teaching_table.circumference(), round_room.circumference())
+
+# everythings an object! dir() will return an objects attrributes at runtime, Python automatically adds a number of attributes to all objects that get created. These internal attributes are usually indicated by double-underscores.
+
+# print(dir(5))
+
+def this_function_is_an_object(name):
+  name = 'Lottie'
+
+# print(dir(this_function_is_an_object))
+
+# string representation - when printing a class it prints that weird line wihtout much info e.g <__main__.Employee object at 0x104e88390>. To return it as string we can use the dunder method __repr__(). this tells python what we want the string rep of the class to be. Only has one peram and returns a string 
+
+class Employee():
+  def __init__(self, name):
+    self.name = name
+
+  def __repr__(self):
+    return self.name
+
+argus = Employee("Argus Filch")
+print(argus)
+
+# string representation so you can just call the variable immediately 
+
+class RepCircle:
+  pi = 3.14
+  
+  def __init__(self, diameter):
+    self.radius = diameter / 2
+  
+  def area(self):
+    return self.pi * self.radius ** 2
+  
+  def circumference(self):
+    return self.pi * 2 * self.radius
+
+  def __repr__(self):
+    return "A circle with radius {radius}".format(radius = self.radius)
+  
+  
+medium_pizza = RepCircle(12)
+teaching_table = RepCircle(36)
+round_room = RepCircle(11460)
+
+print(medium_pizza, teaching_table, round_room)
