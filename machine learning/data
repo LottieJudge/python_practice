@@ -2,10 +2,24 @@ Data Notes:
 
 The way in which we use data is only successful if the data we're using is good. E.G in medical fields when studies and cases are mostly modelled on white men, it leaves a lot of room for the rest of the population. 
 
-Statistics: 
+### Statistics: 
 
 Statistics help us test the likelihood of an event happening by random choice vs systematically. 
 
 E.G with discrimnatory hiring you would look at all candidates across a year and see if it was statistically possible to get to the hiring rates they had. Had 50% of candidates been women? and they had only employed 3% women - that's systematic not random chance.
 
 Data Visualization: Humans are visual and creative creatures, you can have great data but you also have to present it in a clear and consice way for it to be effective. They had the data to know the o rings on the Challenger could fail but it was presented badly and overlooked. (over simplifying but we eat and learn with our eyes)
+
+Finding and using data: 
+
+There's ethical concerns to using peoples data as it belong to them, it's part of them. So we use free data resources instead (permission granted) - find data sets  
+https://datasetsearch.research.google.com
+
+Data types and Quality: 
+
+The most common shape to view data is a table/sp sheet. The variables are in the columns (the name of the thing we are measuring) and the instances are in the rows, the observations. 
+
+Creating rules within data means we can keep data clean. E.G this column is int, this column is varchar and punctuation rules. 
+
+### working with missing data
+
