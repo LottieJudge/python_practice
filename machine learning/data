@@ -23,3 +23,30 @@ Creating rules within data means we can keep data clean. E.G this column is int,
 
 ### working with missing data
 
+Types of missing data: 
+
+Missing Completely at Random - Nothing entered at all 
+
+Missing at Random - there may be a reason why the data wasn't collected. E.G all height is missing for Redwoods because we didn't have the correct tools to measure them. 
+
+When working with missing data how you obtain the data/if you choose not to will effect the outcome of your data, consider what will happen if left missing or if guessing is the best course of action. 
+
+### Accuracy 
+
+Standardisation is essential for accurate data. E.G when measuring a tree if someone starts from the ground and another person starts from where the roots stop and the trunk begins you'll get different data. Its important for everyone to know the standard. 
+
+### Validity 
+
+Nominal vs Ordinal data - 
+
+Nominal is any kind of category that is on equal scaling but without order. e.g plant species
+ 
+ - Sage
+ - Garden Pea 
+ - Maize
+
+The data cannot be changed/increased - there is no hierarchy as they're not related (in terms of the actual data not in terms of all being plants)
+
+Ordinal 
+
+The numbers have an order e.g in a BMI, there's hierarchy in a related way (not necessarily better vs worse just related in a way and can be traversed)
