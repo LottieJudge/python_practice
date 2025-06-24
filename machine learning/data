@@ -1,0 +1,52 @@
+Data Notes: 
+
+The way in which we use data is only successful if the data we're using is good. E.G in medical fields when studies and cases are mostly modelled on white men, it leaves a lot of room for the rest of the population. 
+
+### Statistics: 
+
+Statistics help us test the likelihood of an event happening by random choice vs systematically. 
+
+E.G with discrimnatory hiring you would look at all candidates across a year and see if it was statistically possible to get to the hiring rates they had. Had 50% of candidates been women? and they had only employed 3% women - that's systematic not random chance.
+
+Data Visualization: Humans are visual and creative creatures, you can have great data but you also have to present it in a clear and consice way for it to be effective. They had the data to know the o rings on the Challenger could fail but it was presented badly and overlooked. (over simplifying but we eat and learn with our eyes)
+
+Finding and using data: 
+
+There's ethical concerns to using peoples data as it belong to them, it's part of them. So we use free data resources instead (permission granted) - find data sets  
+https://datasetsearch.research.google.com
+
+Data types and Quality: 
+
+The most common shape to view data is a table/sp sheet. The variables are in the columns (the name of the thing we are measuring) and the instances are in the rows, the observations. 
+
+Creating rules within data means we can keep data clean. E.G this column is int, this column is varchar and punctuation rules. 
+
+### working with missing data
+
+Types of missing data: 
+
+Missing Completely at Random - Nothing entered at all 
+
+Missing at Random - there may be a reason why the data wasn't collected. E.G all height is missing for Redwoods because we didn't have the correct tools to measure them. 
+
+When working with missing data how you obtain the data/if you choose not to will effect the outcome of your data, consider what will happen if left missing or if guessing is the best course of action. 
+
+### Accuracy 
+
+Standardisation is essential for accurate data. E.G when measuring a tree if someone starts from the ground and another person starts from where the roots stop and the trunk begins you'll get different data. Its important for everyone to know the standard. 
+
+### Validity 
+
+Nominal vs Ordinal data - 
+
+Nominal is any kind of category that is on equal scaling but without order. e.g plant species
+ 
+ - Sage
+ - Garden Pea 
+ - Maize
+
+The data cannot be changed/increased - there is no hierarchy as they're not related (in terms of the actual data not in terms of all being plants)
+
+Ordinal 
+
+The numbers have an order e.g in a BMI, there's hierarchy in a related way (not necessarily better vs worse just related in a way and can be traversed)
