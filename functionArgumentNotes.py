@@ -41,6 +41,9 @@ assign_table(9, 'Scott', True)
 # using keyword aruguments to assign in this 
 assign_table(table_number = 3, name = 'Kay', vip_status= True)
 
+# using the False default value 
+assign_table(4, 'Karla')
+
 
 
 
