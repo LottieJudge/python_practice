@@ -27,6 +27,10 @@ def assign_table(table_number, name, vip_status):
 
 # using positional aruguments in this 
 assign_table(9, 'Scott', True)
-print(tables)
 
-# using keyword aruguments to assign
+# using keyword aruguments to assign in this 
+assign_table(table_number = 3, name = 'Kay', vip_status= True)
+
+
+# moved print statement below all for DRY - don't repeat yourself 
+print(tables)
