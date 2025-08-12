@@ -5,3 +5,8 @@ def printname(firstName, lastName):
 
 printname('Scott', 'Godfrey')
 
+tables = {
+  1: ['Jiho', False],
+  2:[],
+  3:[],
+}
