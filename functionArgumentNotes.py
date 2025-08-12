@@ -12,6 +12,14 @@ def printdog(name, age):
 
 printdog(name = 'Watson', age = 8)
 
+defaultAruguments = 'Arguments that are assigned default values, they can be changed but if they are not, they\'ll always render as the default value assigned in the function arugment'
+
+def printMum(name='Sally', age=64):
+  print(name,age)
+
+printMum()
+printMum('Lisa', 60)
+
 tables = {
   1: ['Jiho', False],
   2:[],
@@ -30,6 +38,8 @@ assign_table(9, 'Scott', True)
 
 # using keyword aruguments to assign in this 
 assign_table(table_number = 3, name = 'Kay', vip_status= True)
+
+
 
 
 # moved print statement below all for DRY - don't repeat yourself 
