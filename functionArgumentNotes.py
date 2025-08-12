@@ -5,3 +5,44 @@ def printname(firstName, lastName):
 
 printname('Scott', 'Godfrey')
 
+keyWordArgument = 'Arguments that are called by their name, so within the function call assigning them data a bit like you would with a variable'
+
+def printdog(name, age):
+  print(name, age)
+
+printdog(name = 'Watson', age = 8)
+
+defaultAruguments = 'Arguments that are assigned default values, they can be changed but if they are not, they\'ll always render as the default value assigned in the function arugment'
+
+def printMum(name='Sally', age=64):
+  print(name,age)
+
+printMum()
+printMum('Lisa', 60)
+
+
+tables = {
+  1: ['Jiho', False],
+  2:[],
+  3:[],
+  4:[],
+  5:[],
+  6:[],
+  7:[],
+}
+
+# adding in a default value for vip_status
+def assign_table(table_number, name, vip_status=False):
+  tables[table_number] = [name, vip_status]
+
+# using positional aruguments in this 
+assign_table(9, 'Scott', True)
+
+# using keyword aruguments to assign in this 
+assign_table(table_number = 3, name = 'Kay', vip_status= True)
+
+# using the False default value 
+assign_table(4, 'Karla')
+
+# moved print statement below all for DRY - don't repeat yourself 
+print(tables)
