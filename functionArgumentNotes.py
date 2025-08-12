@@ -20,6 +20,7 @@ def printMum(name='Sally', age=64):
 printMum()
 printMum('Lisa', 60)
 
+
 tables = {
   1: ['Jiho', False],
   2:[],
@@ -30,7 +31,8 @@ tables = {
   7:[],
 }
 
-def assign_table(table_number, name, vip_status):
+# adding in a default value for vip_status
+def assign_table(table_number, name, vip_status=False):
   tables[table_number] = [name, vip_status]
 
 # using positional aruguments in this 
