@@ -14,3 +14,6 @@ tables = {
   6: [],
   7: [],
 }
+
+def assign_table(table_number, name, vip_status):
+  
