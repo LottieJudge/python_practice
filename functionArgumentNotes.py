@@ -18,3 +18,5 @@ tables = {
 def assign_table(table_number, name, vip_status):
   tables[table_number] = [name, vip_status]
 
+assign_table(9, 'Scott', True)
+print(tables)
