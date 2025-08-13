@@ -46,3 +46,5 @@ assign_table(4, 'Karla')
 
 # moved print statement below all for DRY - don't repeat yourself 
 print(tables)
+
+# variable number of arguments - how does a function now to process as many arguments as it is given without explicitly stating it?
