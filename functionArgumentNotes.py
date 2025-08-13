@@ -46,3 +46,22 @@ assign_table(4, 'Karla')
 
 # moved print statement below all for DRY - don't repeat yourself 
 print(tables)
+
+# variable number of arguments - how does a function now to process as many arguments as it is given without explicitly stating it? e.g the print() function, will just print as many as we pass it, to do this with a function we create we can use the unpacking operator within the function definition * e.g 
+
+def makeItRain(*args):
+  print(args)
+
+makeItRain('yes', 'no', 'it', 'is', 'raining', 'args', False, 'or', True, 18)
+
+# args could be any word such as when using i in a for loop 
+
+def noRainNoGain(*weathers):
+  print(weathers)
+
+noRainNoGain('Sun', 'Snow', 'Typhoon')
+
+def print_orders_new(*print_orders):
+  print(print_orders)
+
+print_orders_new('Oj', 'Apple Juice', 'Seasick Sausage Sandwich')
