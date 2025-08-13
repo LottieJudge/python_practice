@@ -61,3 +61,7 @@ def noRainNoGain(*weathers):
 
 noRainNoGain('Sun', 'Snow', 'Typhoon')
 
+def print_orders_new(*print_orders):
+  print(print_orders)
+
+print_orders_new('Oj', 'Apple Juice', 'Seasick Sausage Sandwich')
