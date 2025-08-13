@@ -55,3 +55,9 @@ def makeItRain(*args):
 makeItRain('yes', 'no', 'it', 'is', 'raining', 'args', False, 'or', True, 18)
 
 # args could be any word such as when using i in a for loop 
+
+def noRainNoGain(*weathers):
+  print(weathers)
+
+noRainNoGain('Sun', 'Snow', 'Typhoon')
+
