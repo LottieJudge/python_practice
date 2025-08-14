@@ -69,3 +69,11 @@ def print_orders_new(*print_orders):
 
 print_orders_new('Oj', 'Apple Juice', 'Seasick Sausage Sandwich')
 
+# unpacking 
+
+shops = ['Boots', 'Argos', 'Oliver Bonas']
+
+# prints as a list 
+print(shops)
+# prints as string 
+print(*shops) 
