@@ -48,6 +48,9 @@ assign_table(4, 'Karla')
 print(tables)
 
 # variable number of arguments - how does a function now to process as many arguments as it is given without explicitly stating it? e.g the print() function, will just print as many as we pass it, to do this with a function we create we can use the unpacking operator within the function definition * e.g 
+# this is actually packing args, unpacking is smushing them all toegther such as a list or tuple 
+
+# packing below : 
 
 def makeItRain(*args):
   print(args)
@@ -65,3 +68,12 @@ def print_orders_new(*print_orders):
   print(print_orders)
 
 print_orders_new('Oj', 'Apple Juice', 'Seasick Sausage Sandwich')
+
+# unpacking 
+
+shops = ['Boots', 'Argos', 'Oliver Bonas']
+
+# prints as a list 
+print(shops)
+# prints as string 
+print(*shops) 
