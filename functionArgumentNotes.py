@@ -38,13 +38,13 @@ def assign_table(table_number, name, vip_status=False):
   tables[table_number]['order'] = ''
 
 # using positional aruguments in this 
-assign_table(9, 'Scott', True)
+# assign_table(9, 'Scott', True)
 
 # using keyword aruguments to assign in this 
-assign_table(table_number = 3, name = 'Kay', vip_status= True)
+# assign_table(table_number = 3, name = 'Kay', vip_status= True)
 
 # using the False default value 
-assign_table(4, 'Karla')
+# assign_table(4, 'Karla')
 
 # moved print statement below all for DRY - don't repeat yourself 
 print(tables)
@@ -83,5 +83,7 @@ print(*shops)
 # another packing function 
 
 def assign_and_print_orders(table_number, *order_items):
-  tables[table_number]['orders'] = order_items
-  
+  tables[table_number]['order'] = order_items
+  for order in order_items:
+    print(order)
+
