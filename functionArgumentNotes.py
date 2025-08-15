@@ -77,3 +77,8 @@ shops = ['Boots', 'Argos', 'Oliver Bonas']
 print(shops)
 # prints as string 
 print(*shops) 
+
+# another packing function 
+
+def assign_and_print_orders(table_number, *order_items):
+  
