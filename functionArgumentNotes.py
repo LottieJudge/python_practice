@@ -83,4 +83,5 @@ print(*shops)
 # another packing function 
 
 def assign_and_print_orders(table_number, *order_items):
+  tables[table_number]['orders'] = order_items
   
