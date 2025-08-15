@@ -20,15 +20,18 @@ def printMum(name='Sally', age=64):
 printMum()
 printMum('Lisa', 60)
 
-
 tables = {
-  1: ['Jiho', False],
-  2:[],
-  3:[],
-  4:[],
-  5:[],
-  6:[],
-  7:[],
+  1: {
+    'name': 'Jiho',
+    'vip_status': False,
+    'order': 'Orange Juice, Apple Juice'
+  },
+  2: {},
+  3: {},
+  4: {},
+  5: {},
+  6: {},
+  7: {},
 }
 
 # adding in a default value for vip_status
@@ -45,9 +48,6 @@ def assign_table(table_number, name, vip_status=False):
 
 # using the False default value 
 # assign_table(4, 'Karla')
-
-# moved print statement below all for DRY - don't repeat yourself 
-print(tables)
 
 # variable number of arguments - how does a function now to process as many arguments as it is given without explicitly stating it? e.g the print() function, will just print as many as we pass it, to do this with a function we create we can use the unpacking operator within the function definition * e.g 
 # this is actually packing args, unpacking is smushing them all toegther such as a list or tuple 
@@ -87,3 +87,9 @@ def assign_and_print_orders(table_number, *order_items):
   for order in order_items:
     print(order)
 
+assign_table(2, 'Arwa', True)
+assign_and_print_orders(2, 'Steak', 'Seabass', 'Wine Bottle')
+
+
+# moved print statement below all for DRY - don't repeat yourself 
+print(tables)
