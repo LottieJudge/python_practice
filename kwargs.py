@@ -17,7 +17,8 @@ tables = {
   7: {},
 }
 
-
+def assign_food_items(**order_items):
+  print(order_items)
 
 
 # move print again for DRY principles 
