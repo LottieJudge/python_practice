@@ -18,6 +18,8 @@ tables = {
 }
 
 def assign_food_items(**order_items):
+  food = order_items.get('food')
+  drinks = order_items.get('drinks')
   print(order_items)
 
 
