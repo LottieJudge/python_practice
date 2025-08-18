@@ -21,11 +21,12 @@ def assign_food_items(**order_items):
 # using the get method to assign the keyword argument to a variable to be able to use
   food = order_items.get('food')
   drinks = order_items.get('drinks')
-  print(order_items)
+  print(f'Food: {food}', f'Drinks: {drinks}')
+
 
 
 # move print again for DRY principles 
 print(tables)
 
-
+assign_food_items(food='burger', drinks='beer')
 
