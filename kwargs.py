@@ -16,17 +16,20 @@ tables = {
   6: {},
   7: {},
 }
-
-def assign_food_items(**order_items):
+def assign_table(table_number, name, vip_status=False): 
+  tables[table_number]['name'] = name
+  tables[table_number]['vip_status'] = vip_status
+  tables[table_number]['order'] = {}
+  
+def assign_food_items(table_number, **order_items):
 # using the get method to assign the keyword argument to a variable to be able to use
   food = order_items.get('food')
   drinks = order_items.get('drinks')
+  tables[table_number]['order']['food_items'] = food 
+  tables[table_number]['order']['drinks'] = drinks
   print(f'Food: {food}', f'Drinks: {drinks}')
 
-
-
+assign_food_items(2, food='burger', drinks='beer')
 # move print again for DRY principles 
-print(tables)
-
-assign_food_items(food='burger', drinks='beer')
+print(tables) 
 
