@@ -1,0 +1,2 @@
+ls - list of files in current directory 
+mkdir - make a new folder 
