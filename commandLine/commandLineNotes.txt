@@ -26,7 +26,7 @@ wild cards - to select groups of files we can use *
 mv - moves files, e.g mv moveThis.txt to_here/ 
 mv - rename, e.g mv reName.txt newName.txt
 
-rm - deletes files and directories 
+rm - deletes files
 rm -r - deletes a directory and all of it's children 
 there's no undelete 
 
