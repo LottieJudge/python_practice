@@ -1,0 +1,29 @@
+ls - list of files in current directory 
+mkdir - make a new folder 
+
+echo "Hello Command Line" hello.txt - will create a file called text and write Hello Command Line
+
+cat - print the content of a file to terminal e.g cat hello.txt
+
+pwd - find out where you are in the file system 
+
+cp - copies files and directories, cp source.txt destination.txt 
+
+
+
+list options: 
+ls -a: lists all contents including hidden files and directories 
+ls -l: lists everything in long format 
+ls -t: orders files by time, newest to oldest 
+
+Cat: e.g 
+cd TechAssessments 
+ls
+cat makers.py >> lists out contents of makers.py
+
+or if you're in a different directory you can 
+
+cat pp/textMP.py
+
+Copying, Moving and removing files: 
+

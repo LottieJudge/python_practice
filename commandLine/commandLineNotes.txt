@@ -1,0 +1,32 @@
+ls - list of files in current directory 
+list options: 
+ls -a: lists all contents including hidden files and directories 
+ls -l: lists everything in long format 
+ls -t: orders files by time, newest to oldest 
+
+mkdir - make a new folder 
+
+echo "Hello Command Line" hello.txt - will create a file called text and write Hello Command Line
+
+cat - print the content of a file to terminal e.g cat hello.txt
+Cat: e.g 
+cd TechAssessments 
+ls
+cat makers.py >> lists out contents of makers.py
+or if you're in a different directory you can 
+cat pp/textMP.py
+
+Copying, Moving and removing files: 
+
+pwd - find out where you are in the file system (print working directory)
+
+cp - copies files and directories, e.g cp commandLineNotes.txt commandLineNotes.bak
+wild cards - to select groups of files we can use * 
+
+mv - moves files, e.g mv moveThis.txt to_here/ 
+mv - rename, e.g mv reName.txt newName.txt
+
+rm - deletes files
+rm -r - deletes a directory and all of it's children 
+there's no undelete 
+
