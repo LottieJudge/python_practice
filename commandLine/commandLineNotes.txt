@@ -18,7 +18,7 @@ cat pp/textMP.py
 
 Copying, Moving and removing files: 
 
-pwd - find out where you are in the file system 
+pwd - find out where you are in the file system (print working directory)
 
 cp - copies files and directories, e.g cp commandLineNotes.txt commandLineNotes.bak
 wild cards - to select groups of files we can use * 
