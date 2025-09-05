@@ -10,3 +10,4 @@ pwd - find out where you are in the file system
 list options: 
 ls -a: lists all contents including hidden files and directories 
 ls -l: lists everything in long format 
+ls -t: orders files by time, newest to oldest 
