@@ -4,3 +4,9 @@ mkdir - make a new folder
 echo "Hello Command Line" hello.txt - will create a file called text and write Hello Command Line
 
 cat - print the content of a file to terminal e.g cat hello.txt
+
+pwd - find out where you are in the file system 
+
+list options: 
+ls -a: lists all contents including hidden files and directories 
+ls -l: lists everything in long format 
