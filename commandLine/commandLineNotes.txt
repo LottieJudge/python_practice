@@ -11,3 +11,12 @@ list options:
 ls -a: lists all contents including hidden files and directories 
 ls -l: lists everything in long format 
 ls -t: orders files by time, newest to oldest 
+
+Cat: e.g 
+cd TechAssessments 
+ls
+cat makers.py >> lists out contents of makers.py
+
+or if you're in a different directory you can 
+
+cat pp/textMP.py
