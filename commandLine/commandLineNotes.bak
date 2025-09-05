@@ -7,7 +7,7 @@ cat - print the content of a file to terminal e.g cat hello.txt
 
 pwd - find out where you are in the file system 
 
-cp - copies files and directories, e.g cp commandLineNotes.txt commandLineNotes.bak
+cp - copies files and directories, cp source.txt destination.txt 
 
 
 
