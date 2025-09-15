@@ -1,3 +1,5 @@
 the > command in terminal/version redirects the standard 
 
-echo 'Hello World' > hello.txt
+echo 'Hello World!' > hello.txt
+cat hello.txt
+// Prints Hello World! to the terminal 
