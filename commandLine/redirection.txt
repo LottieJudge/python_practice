@@ -18,3 +18,19 @@ cat < lakes.txt == cat lakes.txt
 
 | is a pipe - this is command to command redirection. 
 
+Sort takes the standard input and orders it alphabetical as the standard output 
+
+$ sort list.txt
+// output is alphabetical
+
+save the alphabetized one as a new file 
+$ cat list.txt | sort > sorted_list.txt
+// saves the list to a new file 
+
+Uniq - stands for unique and filters out adjacent, duplicate lines in a file. 
+to filter out non adjacent duplicate lines you would need to use sort, pipe and then uniq. 
+
+e.g 
+
+$ sort list.txt | uniq  
+
