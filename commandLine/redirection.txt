@@ -12,3 +12,5 @@ To add to a file without losing the original contents we use the redirect >>
 $ cat oceans.txt >> continents.txt
 // will add oceans to continents, not overide it 
 
+< takes the standard input from the file and inputs it into the command 
+
