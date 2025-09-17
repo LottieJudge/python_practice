@@ -6,4 +6,6 @@ cat hello.txt
 
 you can use > redirect to move the contents of one file to another e.g 
 $ cat oceans.txt > continents.txt
-// would move anthing in oceans.txt to continents.txt
+// would move anthing in oceans.txt to continents.txt overwriting the original text 
+
+To add to a file without losing the original contents we use the redirect >>
