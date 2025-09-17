@@ -26,3 +26,11 @@ $ sort list.txt
 save the alphabetized one as a new file 
 $ cat list.txt | sort > sorted_list.txt
 // saves the list to a new file 
+
+Uniq - stands for unique and filters out adjacent, duplicate lines in a file. 
+to filter out non adjacent duplicate lines you would need to use sort, pipe and then uniq. 
+
+e.g 
+
+$ sort list.txt | uniq  
+
