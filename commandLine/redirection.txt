@@ -20,3 +20,6 @@ cat < lakes.txt == cat lakes.txt
 
 Sort takes the standard input and orders it alphabetical as the standard output 
 
+$ sort list.txt
+// output is alphabetical
+
