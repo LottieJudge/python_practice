@@ -23,3 +23,6 @@ Sort takes the standard input and orders it alphabetical as the standard output
 $ sort list.txt
 // output is alphabetical
 
+save the alphabetized one as a new file 
+$ cat list.txt | sort > sorted_list.txt
+// saves the list to a new file 
