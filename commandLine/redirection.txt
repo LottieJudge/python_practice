@@ -3,3 +3,18 @@ the > command in terminal/version redirects the standard
 echo 'Hello World!' > hello.txt
 cat hello.txt
 // Prints Hello World! to the terminal 
+
+you can use > redirect to move the contents of one file to another e.g 
+$ cat oceans.txt > continents.txt
+// would move anthing in oceans.txt to continents.txt overwriting the original text 
+
+To add to a file without losing the original contents we use the redirect >>
+$ cat oceans.txt >> continents.txt
+// will add oceans to continents, not overide it 
+
+< takes the standard input from the file and inputs it into the command 
+
+cat < lakes.txt == cat lakes.txt 
+
+| is a pipe - this is command to command redirection. 
+
