@@ -3,3 +3,7 @@ the > command in terminal/version redirects the standard
 echo 'Hello World!' > hello.txt
 cat hello.txt
 // Prints Hello World! to the terminal 
+
+you can use > redirect to move the contents of one file to another e.g 
+$ cat oceans.txt > continents.txt
+// would move anthing in oceans.txt to continents.txt
