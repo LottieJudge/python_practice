@@ -15,3 +15,6 @@ $ cat oceans.txt >> continents.txt
 < takes the standard input from the file and inputs it into the command 
 
 cat < lakes.txt == cat lakes.txt 
+
+| is a pipe - this is command to command redirection. 
+
