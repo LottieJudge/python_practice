@@ -34,3 +34,4 @@ e.g
 
 $ sort list.txt | uniq  
 
+grep 
