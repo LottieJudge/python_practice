@@ -46,3 +46,7 @@ e.g
 export USER="Lottie Judge" // this sets the user to Lottie Judge (me) 
 // export makes it available across all children etc 
 At the command line, the command echo $USER returns the value of the variable. Note that $ is always used when returning a variable’s value
+
+PS1 Variable 
+
+PS1 is an environment variable that defines the makeup and style of the command prompt.
