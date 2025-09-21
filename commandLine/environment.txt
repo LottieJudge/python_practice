@@ -1,1 +1,11 @@
-Environment Notes:
+Using Nano
+to enter nano write nano fileName in the terminal
+
+Once there you can write your info into the terminal 
+then press ctrl + o to save the file and ctrl - x to leave Nano and create the file to see if it's worked you can use 
+$ cat fileName 
+
+//
+(.venv) lottiejudge@macbookair commandLine % nano nanoHello.txt
+(.venv) lottiejudge@macbookair commandLine % cat nanoHello.txt
+Hello, I am a Nano file. Written and saved completely in your environment - how snazzy!
