@@ -37,3 +37,12 @@ CodeCademyExcercises            functions.py                    loops.py        
 CoderByte                       greeting.py                     machine learning                TechAssessments
 commandLine                     kwargs.py                       mapFunction.py                  tuples.py
 
+Environmental variables:
+
+Are variables that can be used across commands and programmes that contain information about the environment itself. 
+
+e.g 
+
+export USER="Lottie Judge" // this sets the user to Lottie Judge (me) 
+// export makes it available across all children etc 
+At the command line, the command echo $USER returns the value of the variable. Note that $ is always used when returning a variable’s value
