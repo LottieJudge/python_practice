@@ -53,4 +53,18 @@ $ grep -Rl Trek
 //./commandLine/list.txt
 ./commandLine/sorted_list.txt
 
-sed 
+sed stands for Stream Editor. it accepts an input and will then modify the file based on the expression given. Like find and replace 
+
+$ sed 's/Trek/Chopper' sorted_list.txt
+// s stands for substitution 
+Trek - the text to find 
+Chopper - the text to replace it with 
+this will only replace the first instance to replace all you would use 
+
+$ sed 's/Trek/Chopper/g' sorted_list.txt
+// the g stands for global and is a global change 
+
+and these will only work in the terminal to replace it in the actual file you would use 
+
+$ sed -i 's/Trek/Chopper/g' sorted_list.txt
+
