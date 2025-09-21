@@ -51,3 +51,5 @@ PS1 Variable
 
 PS1 is an environment variable that defines the makeup and style of the command prompt.
 so if you changed it to 
+
+env command - prints a list of the environment vairables for the current user 
