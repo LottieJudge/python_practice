@@ -7,3 +7,10 @@ when you start a session the bash profile will load before executing commmands
 
 -the . indicates a hidden file
 - the bash_profile name is also important as it's how the command line recognises what it is
+
+to open and edit the bash profile you can use: 
+$ nano .bash_profile
+
+to then activate the changes use 
+
+$ source .bash_profile  
