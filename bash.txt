@@ -1,0 +1,39 @@
+Customisation with Bash:
+A bash profile is a file used to store your environment settings.
+
+On most computers it's in the home directory under .bash_profile
+
+when you start a session the bash profile will load before executing commmands
+
+-the . indicates a hidden file
+- the bash_profile name is also important as it's how the command line recognises what it is
+
+to open and edit the bash profile you can use: 
+$ nano .bash_profile
+
+to then activate the changes use 
+
+$ source .bash_profile  
+
+Alias 
+
+the alias command allows you to create shortcuts for communly used commands e.g 
+
+alias pw = "pwd" // creates the alias pw for pwd 
+e.g 
+nano .bash_profile
+alias bigListBitch="ls" // no spaces before or after the = 
+ctrl+o / enter / ctrl + x
+source .bash_profile
+$ bigListBitch 
+prints // 
+(.venv) lottiejudge@macbookair python_practice % source .bash_profile
+(.venv) lottiejudge@macbookair python_practice % bigListBitch
+bash.txt                        compromised_users.txt           lambda.py                       new_passwords.csv
+bigOnotation.py                 errors_and_bugs.py              leetCode.py                     noneWorkAround.py
+boss-message.json               flashCards.py                   listMethods.py                  PP
+check.py                        functionArgumentNotes.py        lists.py                        python_basics.py
+CodeCademyExcercises            functions.py                    loops.py                        README.md
+CoderByte                       greeting.py                     machine learning                TechAssessments
+commandLine                     kwargs.py                       mapFunction.py                  tuples.py
+

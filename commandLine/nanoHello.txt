@@ -1,0 +1,5 @@
+Hello, I am a Nano file. Written and saved completely in your environment - how snazzy!
+Nano Commands:
+ ctrl + o - saves a file 
+ ctrl + x exits the programme 
+ ctrl + g - opens a help menu 
