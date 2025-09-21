@@ -1,0 +1,9 @@
+Customisation with Bash:
+A bash profile is a file used to store your environment settings.
+
+On most computers it's in the home directory under .bash_profile
+
+when you start a session the bash profile will load before executing commmands
+
+-the . indicates a hidden file
+- the bash_profile name is also important as it's how the command line recognises what it is
