@@ -55,7 +55,7 @@ $ grep -Rl Trek
 
 sed stands for Stream Editor. it accepts an input and will then modify the file based on the expression given. Like find and replace 
 
-$ sed 's/Trek/Chopper' sorted_list.txt
+$ sed 's/Trek/Chopper/5' sorted_list.txt
 // s stands for substitution 
 Trek - the text to find 
 Chopper - the text to replace it with 
