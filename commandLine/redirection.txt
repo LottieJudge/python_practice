@@ -38,7 +38,19 @@ grep stands for 'Global Regular Expression Print' - it'll search for lines in fi
 
 grep -i = this enables grep to be case insensitive. 
 
-$ grep -i 
+$ grep -i Your Mum
 
 grep -R will search through all files in a directory and give you it back as a list 
 grep -Rl (lowercase) will give you just the file names, no list. 
+
+$ grep -R 
+./commandLine/list.txt:Trek Bike 
+./commandLine/sorted_list.txt:Trek Bike 
+
+VS 
+
+$ grep -Rl Trek 
+//./commandLine/list.txt
+./commandLine/sorted_list.txt
+
+sed 
