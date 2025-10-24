@@ -4,5 +4,14 @@ In logic arguments != rows. Arguments, like the data given to a function, are si
 
 1) It is raining.
 2) If you choose not to take an umbrella, you will get wet.. 
+..  You should take a brolly 
+
+Points 1 - 2 are premises of the argument and final sentence is the conclusion. 
+
+Sentences: 
+In logic we are only interested in sentences that can act as a premise or conclusion of an argument. So a sentence in logic should be a boolean, it should be either True or False. Fact vs Opinion. Opinion based sentences and questions are not useful sentences to logic, even if they are to conversation. 
+
+
+
 
 
