@@ -1,0 +1,8 @@
+Critical Thinking notes: 
+
+In logic arguments != rows. Arguments, like the data given to a function, are simply reasons to believe a logical conclusion. e.g 
+
+1) It is raining.
+2) If you choose not to take an umbrella, you will get wet.. 
+
+
