@@ -15,6 +15,10 @@ This is the same with imperatives as commands. e.g "Sit up!" is neither true or 
 
 ## Two ways Arguments go wrong: 
 
+1. The premise may be false. e.g in the argument above if you don't bring an umbrella you _will_ get wet, but the person may have a coat or drive to their destination. This would render the conclusion that !umbrella == you're wet false. 
+2. The conclusion of the argument it's self may be false. If the person walking in the rain enjoys getting drenched, they would not need to bring an umbrella. 
+
+
 
 
 
