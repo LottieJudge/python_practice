@@ -19,6 +19,24 @@ This is the same with imperatives as commands. e.g "Sit up!" is neither true or 
 2. The conclusion of the argument it's self may be false. If the person walking in the rain enjoys getting drenched, they would not need to bring an umbrella. 
 
 
+## Validity in arguments 
+
+the following argument is not awful as it would be true a big percentage of the time, but I'm literally the person making it an invalid argument. 
+
+1) You are reading this book
+2) this is a book about logic 
+.. you must be a logic student 
+
+### Deductive Validity: 
+
+but an argument can be Valid and also untrue, as a deductive argument is about structure not about irl truth e.g 
+
+1) all cats can fly
+2) Fluffy is a cat 
+.. therefore fluffy can fly
+
+Even though statement one isn't true it's still a valid argument as the pieces work together. 
+
 
 
 
